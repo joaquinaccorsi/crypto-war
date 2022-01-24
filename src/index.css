@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family:playfair-display;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+NavBar {background-color: blue;}
+img.NavBar-logo {width: 50px;}
+
+code {
+  font-family: playfair-display; }
