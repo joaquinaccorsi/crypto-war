@@ -1,6 +1,7 @@
 import logo from './CWLOGOSHORT.png';
 import logofull from "./LogoCWFull.png";
 import './App.css';
+import Card from "./components/Card"
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       
       </navbar>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
           ¡ÚNETE A LA BATALLA!
         </p>
@@ -26,6 +27,12 @@ function App() {
           Crypto War
         </a>
       </header>
+      <section className='DonatePage'>
+        <h1 className='TitleDonatePage'>
+          Apoyanos y obtené beneficios
+          exclusivos en <img src={logofull} className="Title-Logo"/>
+        </h1>
+      </section>
     </div>
   );
 }

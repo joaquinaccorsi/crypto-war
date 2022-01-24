@@ -6,7 +6,8 @@ body {
 }
 
 NavBar {background-color: blue;}
-img.NavBar-logo {width: 50px;}
+img.NavBar-logo {width: 150px;}
+img.Title-Logo {width: 160px;}
 
 code {
   font-family: playfair-display; }
