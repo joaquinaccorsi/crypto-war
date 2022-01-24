@@ -11,28 +11,93 @@ function App() {
 
         probando navbar
 
-      
+
       </navbar>
       <header className="App-header">
-        
-        <p>
+
+        <h1 className='Header-Title'>
           ¡ÚNETE A LA BATALLA!
-        </p>
-        <a
-          className="App-link"
-          href="https://discord.gg/2Vf9jmNM"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Crypto War
-        </a>
+        </h1>
+
+        <p className='pheader'>
+          Entrá al mundo de 
+          <img src={logofull} className='Logo-Text-Header'/> <br/>
+          Conquista reinos, lucha contra bestias <br/>
+          destruye a los <strong>Jefes</strong> <br/>
+          y vive la experiencia medieval.
+
+        </p>      
       </header>
       <section className='DonatePage'>
         <h1 className='TitleDonatePage'>
           Apoyanos y obtené beneficios
-          exclusivos en <img src={logofull} className="Title-Logo"/>
+          exclusivos en <img src={logofull} className="Title-Logo" />
         </h1>
+        <Card />
       </section>
+      <section className='Game-Trailer'>
+
+        <h1 className='Game-Trailer-Title'>
+          GAME<br />
+          TRAILER
+        </h1>
+
+
+      </section>
+      <section className='Game-Story'>
+
+        <h1 className='Game-Story-Title'>
+          GAME<br />
+          STORY
+        </h1>
+
+
+      </section>
+      <section className='Game-Play'>
+
+        <h1 className='Game-Play-Title'>
+          GAME<br />
+          PLAY
+        </h1>
+
+
+      </section>
+      <section className='Cofres'>
+
+        <h1 className='Cofres-Title'>
+          COFRES
+
+        </h1>
+
+
+      </section>
+      <section className='Team'>
+
+        <h1 className='Team-Title'>
+          TEAM
+
+        </h1>
+
+
+      </section>
+      <section className='Road-Map'>
+
+        <h1 className='Road-Map-Title'>
+          ROAD<br />
+          MAP
+        </h1>
+
+
+      </section>
+      <footer className="Page-Footer">
+        <a className='Terminos-y-Condiciones'>Términos y Condiciones<br/>
+        de uso</a>
+        <a className='Privacidad'>Privacidad</a> 
+      </footer>
+      
+      
+      
+      
     </div>
   );
 }
