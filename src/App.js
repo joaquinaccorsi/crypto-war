@@ -1,5 +1,6 @@
 import logo from './CWLOGOSHORT.png';
 import logofull from "./LogoCWFull.png";
+import DragonAzul from "./dragon azul.png"
 import './App.css';
 
 import CardDonate from "./components/CardDonate"
@@ -42,6 +43,8 @@ function App() {
            GAME<br />
            <span>TRAILER</span>
           </h1>
+          <img src={DragonAzul} className='Dragon-Azul'/>
+          
 
         </div>
           
