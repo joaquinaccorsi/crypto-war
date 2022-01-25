@@ -1,8 +1,10 @@
 import logo from './CWLOGOSHORT.png';
 import logofull from "./LogoCWFull.png";
 import './App.css';
+
 import CardDonate from "./components/CardDonate"
 import CardTrailer from './components/CardTrailer';
+import CardStory from './components/CardStory';
 
 function App() {
   return (
@@ -10,14 +12,17 @@ function App() {
       <navbar className="NavBar">
         <img src={logofull} className="NavBar-logo" alt="logo" />
 
-        probando navbar
+       <ul className='menu'>
+          inicia sesión
+          REGISTRATE!
+       </ul>
 
 
       </navbar>
       <header className="App-header">
 
         <h1 className='Header-Title'>
-          ¡ÚNETE A LA BATALLA!
+          ¡<span>ÚNETE</span> A LA BATALLA!
         </h1>
 
         <p className='pheader'>
@@ -35,7 +40,7 @@ function App() {
 
           <h1 className='Game-Trailer-Title'>
            GAME<br />
-           TRAILER
+           <span>TRAILER</span>
           </h1>
 
         </div>
@@ -46,20 +51,60 @@ function App() {
 
       </section>
       <section className='Game-Story'>
+        <div className='col-sm-6'>
+          <h1 className='Game-Story-Title'>
+            GAME<br />
+            <span>STORY</span>
+          </h1>
 
-        <h1 className='Game-Story-Title'>
-          GAME<br />
-          STORY
-        </h1>
+        </div>
+        <div className='col-sm-6 justify-content-md-end'>
+
+          <CardStory/>
+
+        </div>
+
 
 
       </section>
       <section className='Game-Play'>
 
-        <h1 className='Game-Play-Title'>
-          GAME<br />
-          PLAY
-        </h1>
+        <row>
+          <h1 className='Game-Play-Title'>
+           GAME<br/>
+           <span>PLAY</span>
+          </h1>
+
+        </row>
+        <row lg="auto" >
+          <div className='col-sm-4 align-self-start'>
+            <h3>
+              <span>JUEGO NFT</span><br/>
+              PLAY-<span>TO</span>-EARN<br/>
+              MMO<br/>
+              RPG
+            </h3>
+          </div>
+          <div className='col-sm-4 align-self-center'>
+            <h3>
+              <span>PvP</span><br/>
+              PvM<br/>
+              EVENTOS <span>MIXTOS</span>
+            </h3>
+          </div>
+          <div className='col-sm-4 align-self-end'>
+            <h3>
+            CUMPLE<br/>
+            <span>MISIONES<br/>
+            DIARIAS<br/></span>
+            PARA GANAR TUS <span>RECOMPENSAS</span>
+
+            </h3>
+          </div>
+
+        </row>
+
+
 
 
       </section>
@@ -75,7 +120,7 @@ function App() {
       <section className='Team'>
 
         <h1 className='Team-Title'>
-          TEAM
+          <span>TEAM</span>
 
         </h1>
 
@@ -85,7 +130,7 @@ function App() {
 
         <h1 className='Road-Map-Title'>
           ROAD<br />
-          MAP
+          <span>MAP</span>
         </h1>
 
 

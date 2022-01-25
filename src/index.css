@@ -1,17 +1,21 @@
 body {
-  
+ 
   margin: 0;
   font-family: playfair-display;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
-div#root {font-family: playfair-display;}
+div#root {font-family: playfair-display; background-image: url(CWWEBBACKGROUND3.png);}
 
-navbar.NavBar {color: blue; width: 100%;}
-img.NavBar-logo {width: 150px;}
+navbar.NavBar {color: withe; width: 100%;}
+img.NavBar-logo {width: 250px;text-align: start; margin: 15px 0px 0px 10px;}
+ul.menu{color: white;text-align: end;}
 
-h1.Header-Title {font-size: 70px;}
+.App-header {background-color: none !important;}
+
+h1.Header-Title {font-size: 70px;margin-bottom: 20rem;}
 
 p.pheader {align-self: flex-start;font-size: 30px;}
 
@@ -22,7 +26,7 @@ img.Title-Logo {width: 160px;}
 img.Logo-Text {width: 50px;}
 
 
-div.card {width: 60%;background-color: blueviolet;}
+div.card {width: 60%;background-color: #d06863;}
 
 div.card-body { width: 100%; align-self: center;}
 
@@ -31,27 +35,35 @@ p {text-align: start;}
 button.btn-light {width: 100px; font-size: 10px;}
 
 
-section.Game-Trailer{background-color: cornflowerblue;}
-h1.Game-Trailer-Title {text-align: end;}
-
-
-section.Game-Story{background-color:darkolivegreen}
-h1.Game-Story-Title {text-align: start;}
-
-section.Game-Play{background-color: darkorchid}
-h1.Game-Play-Title {text-align: center;}
-
-section.Cofres{background-color:darkred}
-
-
-section.Team{background-color:darkgoldenrod}
-
-
-section.Road-Map{background-color:darkcyan}
+section.Game-Trailer{background-color:none}
+div.Card-Trailer {width: 60%;background-color: #d06863;}
+h1.Game-Trailer-Title {text-align: end; color: white;}
+img.Game-Trailer-Logo {width: 280px;}
 
 
 
-footer {background-color: cornflowerblue;}
+section.Game-Story{background-color:none}
+h1.Game-Story-Title {text-align: start;color: white;}
+div.Card-Story {width: 60%;background-color: white; }
+
+section.Game-Play{background-color:none;background-attachment:scroll;}
+h1.Game-Play-Title {text-align: center; color: white;}
+h3 {color: white;}
+
+span {color:#f2023a}
+
+section.Cofres{background-color:none}
+h1.Cofres-Title {text-align: center; color: white;}
+
+
+section.Team{background-color:none}
+
+
+section.Road-Map{background-color:none}
+h1.Road-Map-Title {text-align: center; color: white;}
+
+
+footer {background-color:#f2023a}
 a.Terminos-y-Condiciones{color: cornsilk;}
 a.Privacidad{color: cornsilk;}
 
