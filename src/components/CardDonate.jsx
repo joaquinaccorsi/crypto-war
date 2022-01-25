@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../CWLOGOSHORT.png';
 
-function Card() {
+function CardDonate() {
   return ( 
     <div className='card'>
         <div className='card-body'>
@@ -25,5 +25,6 @@ function Card() {
  )   
 }
 
-export default Card;
+
+export default CardDonate;
 

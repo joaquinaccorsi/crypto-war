@@ -1,7 +1,8 @@
 import logo from './CWLOGOSHORT.png';
 import logofull from "./LogoCWFull.png";
 import './App.css';
-import Card from "./components/Card"
+import CardDonate from "./components/CardDonate"
+import CardTrailer from './components/CardTrailer';
 
 function App() {
   return (
@@ -28,20 +29,20 @@ function App() {
 
         </p>      
       </header>
-      <section className='DonatePage'>
-        <h1 className='TitleDonatePage'>
-          Apoyanos y obtené beneficios
-          exclusivos en <img src={logofull} className="Title-Logo" />
-        </h1>
-        <Card />
-      </section>
+
       <section className='Game-Trailer'>
+        <div>
 
-        <h1 className='Game-Trailer-Title'>
-          GAME<br />
-          TRAILER
-        </h1>
+          <h1 className='Game-Trailer-Title'>
+           GAME<br />
+           TRAILER
+          </h1>
 
+        </div>
+          
+        <div>
+          <CardTrailer/>
+        </div>
 
       </section>
       <section className='Game-Story'>
