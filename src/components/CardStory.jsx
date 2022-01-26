@@ -7,7 +7,7 @@ function CardStory() {
     <div className='card-title'>
      <h3>Se parte de <img src={logofull} className='Game-Trailer-Logo'/></h3>
     </div>
-    <p>
+    <p className='pStory'>
         Desde hace milenios los tres Reinos de CryptoWar estuvieron enfrentados para conquistar su imperio.
         Hasta que un día fueron amenazados por increíbles criaturas, criaturas sedienta de hambre, dominadas por sus Jefes!
         Los reinos se aliaron para unir fuerzas , pero de nada les sirvió... 

@@ -1,6 +1,7 @@
 import logo from './CWLOGOSHORT.png';
 import logofull from "./LogoCWFull.png";
 import DragonAzul from "./dragon azul.png"
+import Imperios from "./imperios.png"
 import './App.css';
 
 import CardDonate from "./components/CardDonate"
@@ -13,10 +14,10 @@ function App() {
       <navbar className="NavBar">
         <img src={logofull} className="NavBar-logo" alt="logo" />
 
-       <ul className='menu'>
-          inicia sesión
-          REGISTRATE!
-       </ul>
+       <nav className='menu'>
+         <a href='#'> inicia sesión</a>
+         <a href='#'> ¡REGISTRATE!</a>         
+       </nav>
 
 
       </navbar>
@@ -26,87 +27,77 @@ function App() {
           ¡<span>ÚNETE</span> A LA BATALLA!
         </h1>
 
+        <div className='Header-Text'>
         <p className='pheader'>
           Entrá al mundo de 
           <img src={logofull} className='Logo-Text-Header'/> <br/>
           Conquista reinos, lucha contra bestias <br/>
           destruye a los <strong>Jefes</strong> <br/>
           y vive la experiencia medieval.
+        </p>
 
-        </p>      
+        <p className='pheader'>adasd</p>
+        <br/>
+        <p className='pheader'>adad</p>
+        <br/>
+        <p className='pheader'>asadasd</p>
+        <br/>
+        <p className='pheader'>asdasd</p>
+        <br/>
+        <p className='pheader'>adad</p>     
+
+        </div>
+
+ 
       </header>
 
       <section className='Game-Trailer'>
-        <div>
+        <CardTrailer/>
 
-          <h1 className='Game-Trailer-Title'>
-           GAME<br />
-           <span>TRAILER</span>
-          </h1>
+        <h1 className='Game-Trailer-Title'>
+          GAME<br />
+          <span>TRAILER</span><br/>
           <img src={DragonAzul} className='Dragon-Azul'/>
-          
-
-        </div>
-          
-        <div>
-          <CardTrailer/>
-        </div>
+        </h1>
 
       </section>
       <section className='Game-Story'>
-        <div className='col-sm-6'>
           <h1 className='Game-Story-Title'>
             GAME<br />
-            <span>STORY</span>
+            <span>STORY</span><br/>
+            <img src={Imperios} className='Imperios'/>
           </h1>
-
-        </div>
-        <div className='col-sm-6 justify-content-md-end'>
-
           <CardStory/>
-
-        </div>
-
-
-
       </section>
       <section className='Game-Play'>
+        <h1 className='Game-Play-Title'>
+          GAME<br/>
+          <span>PLAY</span>
+        </h1>
 
-        <row>
-          <h1 className='Game-Play-Title'>
-           GAME<br/>
-           <span>PLAY</span>
-          </h1>
+        <div className='GP-Text'>
+        <h3>
+          <span>JUEGO NFT</span><br/>
+          PLAY-<span>TO</span>-EARN<br/>
+          MMO<br/>
+          RPG
+        </h3>
 
-        </row>
-        <row lg="auto" >
-          <div className='col-sm-4 align-self-start'>
-            <h3>
-              <span>JUEGO NFT</span><br/>
-              PLAY-<span>TO</span>-EARN<br/>
-              MMO<br/>
-              RPG
-            </h3>
+
+          <h3>
+            <span>PvP</span><br/>
+            PvM<br/>
+            EVENTOS <span>MIXTOS</span>
+          </h3>
+
+          <h3>
+          CUMPLE<br/>
+          <span>MISIONES<br/>
+          DIARIAS<br/></span>
+          PARA GANAR TUS <span>RECOMPENSAS</span>
+
+          </h3>
           </div>
-          <div className='col-sm-4 align-self-center'>
-            <h3>
-              <span>PvP</span><br/>
-              PvM<br/>
-              EVENTOS <span>MIXTOS</span>
-            </h3>
-          </div>
-          <div className='col-sm-4 align-self-end'>
-            <h3>
-            CUMPLE<br/>
-            <span>MISIONES<br/>
-            DIARIAS<br/></span>
-            PARA GANAR TUS <span>RECOMPENSAS</span>
-
-            </h3>
-          </div>
-
-        </row>
-
 
 
 

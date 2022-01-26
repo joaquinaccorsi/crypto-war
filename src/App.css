@@ -25,3 +25,44 @@
     transform: rotate(180deg);
   }
 }
+
+img.Dragon-Azul {animation-iteration-count: infinite; 
+  animation-name: dragon-azul;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  position: relative;
+}
+@keyframes dragon-azul{
+  0% {
+    right: 0%;
+    opacity: 0.1;
+  }
+  100%{
+    right: 5%;
+    opacity: 1;
+  }
+}
+
+
+img.Imperios {width: 370px;
+  animation-iteration-count: infinite; 
+  animation-name: Imperios;
+  animation-duration: 15s;
+  animation-delay: 10s;
+  position: relative;
+}
+@keyframes Imperios {
+  0% {
+    left: 0%;
+    opacity: 0.1;
+  }
+  50%{
+    left: 5%;
+    opacity: 1;
+  }
+  100% {
+    left: 0%;
+    opacity: 0.1;
+  }
+  
+}
