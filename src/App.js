@@ -1,7 +1,8 @@
 import logo from './CWLOGOSHORT.png';
 import logofull from "./LogoCWFull.png";
-import DragonAzul from "./dragon azul.png"
-import Imperios from "./imperios.png"
+import DragonAzul from "./dragon azul.png";
+import Imperios from "./imperios.png";
+import RMBoton from "./RMBOTON.png";
 import './App.css';
 
 import CardDonate from "./components/CardDonate"
@@ -36,15 +37,19 @@ function App() {
           y vive la experiencia medieval.
         </p>
 
-        <p className='pheader'>adasd</p>
-        <br/>
-        <p className='pheader'>adad</p>
-        <br/>
-        <p className='pheader'>asadasd</p>
-        <br/>
-        <p className='pheader'>asdasd</p>
-        <br/>
-        <p className='pheader'>adad</p>     
+        <p className='pheader'>adasd</p> 
+        </div>  
+
+        <div className='BotonesHeader'>
+
+          <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
+          <a href='#Game-Story'><img src={"#"} className='GSBoton'/></a>
+          <a href='#Game-Play'><img src={"#"} className='GPBoton'/></a>
+          <a href='#Cofres'><img src={"#"} className='CBoton'/></a>
+          <a href='#Team'><img src={"#"} className='TBoton'/></a>
+          <a href='#Road-Map'><img src={"RMBoton"} className='RMBoton'/></a>
+          <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
+           
 
         </div>
 
@@ -58,6 +63,7 @@ function App() {
           GAME<br />
           <span>TRAILER</span><br/>
           <img src={DragonAzul} className='Dragon-Azul'/>
+          
         </h1>
 
       </section>
@@ -139,6 +145,7 @@ function App() {
       
       
     </div>
+    
   );
 }
 

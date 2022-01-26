@@ -7,7 +7,7 @@ body {
 
 }
 
-div#root {font-family: playfair-display; background-image: url(CWWEBBACKGROUND3.png);margin: none;}
+div#root {font-family: playfair-display; background-image: url(CWWEBBACKGROUND3.png);margin: none;scroll-behavior: smooth;}
 div.App{background-color: none;text-align: unset;}
 
 navbar.NavBar {color: withe; width: 100%;background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-between;align-items: flex-start;}
