@@ -1,15 +1,18 @@
-import logo from './CWLOGOSHORT.png';
-import logofull from "./LogoCWFull.png";
-import DragonAzul from "./dragon azul.png";
-import Imperios from "./imperios.png";
-import RMBoton from "./RMBOTON.png";
-import BotonRegistro from "./BotonRegistro.png";
+
+import logofull from "./img/LogoCWFull"
+import DragonAzul from "./img/dragon azul.png";
+import Imperios from "./img/imperios.png";
+import RMBoton from "./img/RMBOTON.png";
+import BotonRegistro from "./img/BotonRegistro.png";
+import Guerrera from "./img/guerrera.png"
+import Ninja from "./img/ninja.png"
 import "./Animation";
 import './App.css';
 
 import CardDonate from "./components/CardDonate"
 import CardTrailer from './components/CardTrailer';
 import CardStory from './components/CardStory';
+import CardTeamJoaquin from './components/CardTeamJoaquin';
 
 function App() {
   return (
@@ -125,8 +128,14 @@ function App() {
 
         <h1 className='Cofres-Title'>
           COFRES
-
         </h1>
+
+        <div className='RecursosCofres'>
+        <img src={Guerrera} className='Guerrera'/>
+        <img src={Ninja} className='Ninja'/>
+        </div>
+
+
 
 
       </section>
@@ -135,8 +144,11 @@ function App() {
         <h1 className='Team-Title'>
           <span>TEAM</span>
 
-        </h1>
 
+        </h1>
+        
+
+        <CardTeamJoaquin/>
 
       </section>
       <section className='Road-Map' id='Road-Map'>

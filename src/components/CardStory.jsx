@@ -1,5 +1,5 @@
 import React from 'react';
-import logofull from "../LogoCWFull.png";
+import logofull from "./img/LogoCWFull.png";
 
 function CardStory() {
     return ( 
