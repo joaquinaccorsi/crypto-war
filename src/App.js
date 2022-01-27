@@ -1,11 +1,15 @@
 
-import logofull from "./img/LogoCWFull"
-import DragonAzul from "./img/dragon azul.png";
-import Imperios from "./img/imperios.png";
-import RMBoton from "./img/RMBOTON.png";
-import BotonRegistro from "./img/BotonRegistro.png";
-import Guerrera from "./img/guerrera.png"
-import Ninja from "./img/ninja.png"
+import logofull from "./LogoCWFull.png";
+
+import RMBOTON from "./RMBOTON.png";
+import TBOTON from "./TBoton.png";
+
+import DragonAzul from "./dragon azul.png";
+import Imperios from "./imperios.png";
+import RMBoton from "./RMBOTON.png";
+import BotonRegistro from "./BotonRegistro.png";
+import Guerrera from "./guerrera.png";
+import Ninja from "./ninja.png";
 import "./Animation";
 import './App.css';
 
@@ -13,6 +17,7 @@ import CardDonate from "./components/CardDonate"
 import CardTrailer from './components/CardTrailer';
 import CardStory from './components/CardStory';
 import CardTeamJoaquin from './components/CardTeamJoaquin';
+import CardTeamChristian from "./components/CardTeamChristian";
 
 function App() {
   return (
@@ -62,8 +67,8 @@ function App() {
           <a href='#Game-Story'><img src={"#"} className='GSBoton'/></a>
           <a href='#Game-Play'><img src={"#"} className='GPBoton'/></a>
           <a href='#Cofres'><img src={"#"} className='CBoton'/></a>
-          <a href='#Team'><img src={"#"} className='TBoton'/></a>
-          <a href='#Road-Map'><img src={RMBoton} className='RMBoton'/></a>
+          <a href='#Team'><img src={TBOTON} className='TBoton'/></a>
+          <a href='#Road-Map'><img src={RMBOTON} className='RMBoton'/></a>
           <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
            
 
@@ -139,16 +144,16 @@ function App() {
 
 
       </section>
-      <section className='Team'>
+      <section className='Team' id="Team">
 
         <h1 className='Team-Title'>
           <span>TEAM</span>
-
-
         </h1>
-        
 
-        <CardTeamJoaquin/>
+        <div className="Cards-Team">
+          <CardTeamChristian/>
+          <CardTeamJoaquin/>
+        </div>
 
       </section>
       <section className='Road-Map' id='Road-Map'>

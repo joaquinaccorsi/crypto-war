@@ -1,5 +1,5 @@
 import React from 'react';
-import PerfilJoaquin from "./img/PerfilJoaquin.jpg";
+import PerfilJoaquin from "../PerfilJoaquin.jpg";
 
 function CardTeamJoaquin() {
     return ( 
@@ -12,7 +12,7 @@ function CardTeamJoaquin() {
 
     </p>
     <p className='pRolTeam'>
-    CTO - Diseño 
+    CTO - DISEÑO 
     </p>
 
 

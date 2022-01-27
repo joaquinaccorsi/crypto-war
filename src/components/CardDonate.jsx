@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../CWLOGOSHORT.png';
+import logo from "../CWLOGOSHORT.png";
 
 function CardDonate() {
   return ( 

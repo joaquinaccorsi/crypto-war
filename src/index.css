@@ -29,7 +29,7 @@ img.BotonRegistro {width: 200px;}
   font-size: calc(10px + 2vmin);
   color: white;
 }
-h1.Header-Title {font-size: 70px;margin-bottom: 20rem; font-weight: bolder; text-align: center;text-shadow: black 6px 4px 3px;}
+h1.Header-Title {font-size: 70px;margin-bottom: 10rem; font-weight: bolder; text-align: center;text-shadow: black 6px 4px 3px;}
 
 div.Header-Text {
   display: flex; flex-direction: row; justify-content: space-between;text-shadow: black 2.5px 1.5px 2px
@@ -37,6 +37,7 @@ div.Header-Text {
 p.pheader {align-self: flex-start;font-size: 30px;}
 
 img.RMBoton {width: 300px;}
+img.TBoton {width: 300px;}
 
 img.Logo-Text-Header {width: 300px; align-content: center;}
 
@@ -85,6 +86,13 @@ h1.Cofres-Title {text-align: center; color: white;font-size: 90px;font-weight: b
 section.Team{background-color:none;display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 30px;}
 h1.Team-Title {font-size: 90px;font-weight: bold; text-align: center;text-shadow: black 6px 4px 3px}
 
+div.Cards-Team {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+}
+
 div.Card-Team-Joaquin {
   width: 25%;
   box-sizing: content-box;
@@ -95,14 +103,32 @@ div.Card-Team-Joaquin {
   align-content: center;
   align-items: center;
   justify-items: center;
+  margin: 10px 10px 10px 10px;
  }
 
- .pNameTeam {font-size: 40px; font-weight: bolder;color: white;}
- .pRolTeam {font-size: 35px;font-weight:lighter;color: white;}
+.pNameTeam {font-size: 35px; font-weight: bolder;color: white;}
+.pRolTeam {font-size: 25px;font-weight:lighter;color: white;}
 
- img.Perfil-Joaquin {
-  margin: 50px 0 0 0;
+img.Perfil-Joaquin {
+  margin: 40px 0 0 0;
   width: 240px;
+}
+
+div.Card-Team-Christian {
+  width: 25%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-image: url(http://localhost:3000/static/media/gameplayimage.916a1f3bd0a2a09eb30d.jpg);
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 10px 10px 10px 10px;
+ }
+img.Perfil-Christian {
+  margin: 40px 0 0 0;
+  width: 220px;
 }
 
 
