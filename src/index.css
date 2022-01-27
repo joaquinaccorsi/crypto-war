@@ -13,6 +13,11 @@ div.App{background-color: none;text-align: unset;}
 navbar.NavBar {color: withe; width: 100%;background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-between;align-items: flex-start;}
 img.NavBar-logo {width: 250px;text-align: start; margin: 15px 0px 0px 10px;}
 ul.menu{color: white;text-align: end;}
+a.InicioSesion {
+  text-decoration: none; color: white; font-size: 20px; font-weight:normal;
+}
+
+img.BotonRegistro {width: 200px;}
 
 .App-header {
   background-color:none;
@@ -30,6 +35,8 @@ div.Header-Text {
   display: flex; flex-direction: row; justify-content: space-between;
 }
 p.pheader {align-self: flex-start;font-size: 30px;}
+
+img.RMBoton {width: 300px;}
 
 img.Logo-Text-Header {width: 300px; align-content: center;}
 
@@ -51,7 +58,7 @@ section.Game-Trailer{background-color:none; display: flex; flex-direction: row;f
 div.Card-Trailer {box-sizing:content-box;width: 50%;background-color: #d06863; display: grid; justify-content: center;}
 h1.Game-Trailer-Title {display: grid; justify-content:end; color: white;font-size: 90px;font-weight: bold; margin-right: 30px;}
 img.Game-Trailer-Logo {width: 280px;}
-h3.Title-Card-Trailer {font-size: 40px;font-weight: 800; text-align: center;}
+h3.Title-Card-Trailer {font-size: 35px;font-weight: 700; text-align: center;}
 
 
 
@@ -84,8 +91,8 @@ h1.Road-Map-Title {text-align: center; color: white;font-size: 90px;font-weight:
 
 
 footer {background-color:#f2023a;background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;}
-a.Terminos-y-Condiciones{color: cornsilk;}
-a.Privacidad{color: cornsilk;}
+a.Terminos-y-Condiciones{color: white; font-size: 20px; text-align: center;}
+a.Privacidad{color: white;font-size: 20px;text-align: center;}
 
 
 

@@ -1,15 +1,32 @@
-let DragonAzul = document.getElementsByClassName ("Dragon-Azul");
+window.addEventListener("scroll",function(){
 
-function MoverScroll () {
-    let scrollTop = document.documentElement.scrollTop
+    let DragonAzul = document.getElementById("Dragon-Azul");
 
-    for (var i=0; i < DragonAzul.length; i++ ) {
-        let alturaDragonAzul = DragonAzul[i].offsetTop;
-        if (alturaDragonAzul - 200 < scrollTop){
-            DragonAzul[i].style.opacity = 1;
-            
-        }
-    }
-}
-window.addEventListener("scroll");
+   let altura = window.innerHeight/3;
+
+   let distancia = DragonAzul.getBoundingClientRect().top;
+
+   
+
+
+   console.log(altura)
+   console.log(distancia)
+
+   if(distancia <= altura){
+
+    DragonAzul.classList.add(".Dragon-Azul-Animation",".translate");
+
+
+   }
+
+   else {
+       DragonAzul.classList.remove(".Dragon-Azul-Animation","translate");
+   }
+
+
+
+
+});
+
+
 

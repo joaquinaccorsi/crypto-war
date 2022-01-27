@@ -3,6 +3,8 @@ import logofull from "./LogoCWFull.png";
 import DragonAzul from "./dragon azul.png";
 import Imperios from "./imperios.png";
 import RMBoton from "./RMBOTON.png";
+import BotonRegistro from "./BotonRegistro.png";
+import "./Animation";
 import './App.css';
 
 import CardDonate from "./components/CardDonate"
@@ -16,8 +18,8 @@ function App() {
         <img src={logofull} className="NavBar-logo" alt="logo" />
 
        <nav className='menu'>
-         <a href='#'> inicia sesión</a>
-         <a href='#'> ¡REGISTRATE!</a>         
+         <a href='#' className='InicioSesion'> iniciá sesión</a>
+         <a href='#'><img src={BotonRegistro} className='BotonRegistro'/></a>         
        </nav>
 
 
@@ -37,7 +39,18 @@ function App() {
           y vive la experiencia medieval.
         </p>
 
-        <p className='pheader'>adasd</p> 
+        <p className='pheader'>
+
+         - <span>MMORPG</span> de ACCIÓN/AVENTURA
+         <br/>
+         - PLAY- <span>TO</span> - EARN
+         <br/>
+         - MARKET PLACE <span>NFT</span>
+         <br/>
+         - TIENDA OFICIAL <span>CW STORE</span>
+         <br/>
+
+        </p> 
         </div>  
 
         <div className='BotonesHeader'>
@@ -47,7 +60,7 @@ function App() {
           <a href='#Game-Play'><img src={"#"} className='GPBoton'/></a>
           <a href='#Cofres'><img src={"#"} className='CBoton'/></a>
           <a href='#Team'><img src={"#"} className='TBoton'/></a>
-          <a href='#Road-Map'><img src={"RMBoton"} className='RMBoton'/></a>
+          <a href='#Road-Map'><img src={RMBoton} className='RMBoton'/></a>
           <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
            
 
@@ -62,7 +75,7 @@ function App() {
         <h1 className='Game-Trailer-Title'>
           GAME<br />
           <span>TRAILER</span><br/>
-          <img src={DragonAzul} className='Dragon-Azul'/>
+          <img src={DragonAzul} className='Dragon-Azul' id='Dragon-Azul'/>
           
         </h1>
 
@@ -126,7 +139,7 @@ function App() {
 
 
       </section>
-      <section className='Road-Map'>
+      <section className='Road-Map' id='Road-Map'>
 
         <h1 className='Road-Map-Title'>
           ROAD<br />
