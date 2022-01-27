@@ -12,6 +12,7 @@ img.Dragon-Azul {animation-iteration-count:infinite;
   animation-delay: 5s;
   animation-timing-function: linear;
   position: relative;
+  
 }
 @keyframes dragon-azul{
   0% {
