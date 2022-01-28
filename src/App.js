@@ -18,6 +18,9 @@ import CardTrailer from './components/CardTrailer';
 import CardStory from './components/CardStory';
 import CardTeamJoaquin from './components/CardTeamJoaquin';
 import CardTeamChristian from "./components/CardTeamChristian";
+import CardTeamAitor from "./components/CardTeamAitor";
+import CardTeamMatias from "./components/CardTeamMatias"
+
 
 function App() {
   return (
@@ -153,6 +156,8 @@ function App() {
         <div className="Cards-Team">
           <CardTeamChristian/>
           <CardTeamJoaquin/>
+          <CardTeamAitor/>
+          <CardTeamMatias/>
         </div>
 
       </section>

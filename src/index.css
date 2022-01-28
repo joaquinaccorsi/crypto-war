@@ -131,6 +131,39 @@ img.Perfil-Christian {
   width: 220px;
 }
 
+div.Card-Team-Aitor {
+  width: 25%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-image: url(http://localhost:3000/static/media/gameplayimage.916a1f3bd0a2a09eb30d.jpg);
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 10px 10px 10px 10px;
+ }
+img.Perfil-Aitor {
+  margin: 40px 0 0 0;
+  width: 220px;
+}
+div.Card-Team-Matias {
+  width: 25%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-image: url(http://localhost:3000/static/media/gameplayimage.916a1f3bd0a2a09eb30d.jpg);
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+ }
+img.Perfil-Matias {
+  margin: 40px 0 0 0;
+  width: 220px;
+}
 
 section.Road-Map{background-color:none;display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 30px;}
 h1.Road-Map-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px;}
