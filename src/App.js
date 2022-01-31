@@ -4,6 +4,7 @@ import logoshort from "./CWLOGOSHORT.png";
 
 import RMBOTON from "./RMBOTON.png";
 import TBOTON from "./TBoton.png";
+import HOMEBOTON from "./FlechaArriba1.png";
 
 import DragonAzul from "./dragon azul.png";
 import Imperios from "./imperios.png";
@@ -39,14 +40,15 @@ function App() {
       <navbar className="NavBar">
         <img src={logofull} className="NavBar-logo" alt="logo" />
 
+        <a href="Inicio" ><img src={HOMEBOTON} className="BotonHome"/></a>
+
        <nav className='menu'>
          <a href='#' className='InicioSesion'> iniciá sesión</a>
          <a href='#'><img src={BotonRegistro} className='BotonRegistro'/></a>         
        </nav>
 
-
       </navbar>
-      <header className="App-header">
+      <header className="Inicio">
 
         <h1 className='Header-Title'>
           ¡<span>ÚNETE</span> A LA BATALLA!

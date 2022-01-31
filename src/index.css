@@ -7,7 +7,7 @@ body {
 
 }
 
-div#root {font-family: playfair-display; background-image: url(Capa\ 2.png);background-position-x: -100px;background-position-y: -50px;margin: none;scroll-behavior: smooth;}
+div#root {font-family: playfair-display; background-image: url(Capa\ 2.png);background-size: 120%;background-position-x: -30px;background-position-y: -30px;margin: none;scroll-behavior: smooth;}
 div.App{background-color: none;text-align: unset;}
 
 navbar.NavBar {color: withe; width: 100%;background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-between;align-items: flex-start;}
@@ -19,7 +19,7 @@ a.InicioSesion {
 
 img.BotonRegistro {width: 200px;}
 
-.App-header {
+.Inicio {
   background-color:none;
   min-height: 100vh;
   display: flex;
@@ -29,6 +29,17 @@ img.BotonRegistro {width: 200px;}
   font-size: calc(10px + 2vmin);
   color: white;
 }
+img.BotonHome {
+  position: fixed;
+  width: 50px;
+  margin: 15px;
+  scroll-behavior: smooth;
+}
+
+:hover img.BotonHome {
+  box-shadow: black 1px 2px 3px;
+}
+
 h1.Header-Title {font-size: 70px;margin-bottom: 10rem; font-weight: bolder; text-align: center;text-shadow: black 6px 4px 3px;}
 
 div.Header-Text {
@@ -57,10 +68,31 @@ button.btn-light {width: 100px; font-size: 10px;}
 
 
 section.Game-Trailer{background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-between;align-items: center;margin: 30px 30px;}
-div.Card-Trailer {box-sizing:content-box;width: 50%;background-color: #d06863; display: grid; justify-content: center;box-shadow: black 8px 8px 8px;background-image: url(gameplayimage.jpg);}
-h1.Game-Trailer-Title {display: grid; justify-content:end; color: white;font-size: 90px;font-weight: bold; margin-right: 30px;text-shadow: black 6px 4px 3px}
+div.Card-Trailer {box-sizing:content-box;
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  box-shadow: black 8px 8px 8px
+  ;background-image: url(CardsQBackground.png);
+  background-size: 110%;
+  background-position-x: -25px;
+  background-position-y: -28px;
+  
+}
+h1.Game-Trailer-Title {
+  display: grid;
+  justify-content:end;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  margin-right: 30px;
+  text-shadow: black 6px 4px 3px}
 img.Game-Trailer-Logo {width: 280px;}
-h3.Title-Card-Trailer {font-size: 35px;font-weight: 700; text-align: center; color: white;}
+h3.Title-Card-Trailer {font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin-top: 18px;}
 
 
 
@@ -72,13 +104,13 @@ h1.Game-Story-Title {color: white;font-size: 90px;font-weight: bold;margin-left:
 div.Card-Story {width: 50%; box-sizing: content-box;display: grid; justify-content: right;box-shadow: black 8px 8px 8px; background-image: url(gameplayimage.jpg); background-size: 200%; background-position-x: -350px; }
 .pStory {font-size: 23px; font-weight: lighter;}
 
-section.Game-Play{background-color:none;background-color:none; display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 0px; background-image: url(GamePlayImage.png); background-size: 100%;}
+section.Game-Play{background-color:none;background-color:none; display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 0px; background-image: url(GamePlayImage.png); background-size: 100%; height: 800px;}
 h1.Game-Play-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px}
 div.GP-Text {
-  display: flex; flex-direction: row; justify-content: space-between;text-shadow: black 2px 1px}
+  display: flex; flex-direction: row; justify-content: space-between;text-shadow: black 2px 1px;font-weight: bolder;}
 h3.GP-SubTitles  {color: white;
   text-align: center;
-  margin: 0px 20px 0px 20px;}
+  margin: 0px 20px 0px 20px; font-size: 40px;}
 
 span {color:#f2023a}
 
@@ -208,7 +240,7 @@ font-style: italic;
 p.pQ{
   font-size: 25px;
   font-weight: normal;
-  color: black;
+  color: white;
 }
 img.LogoCardRM {
   width: 120px;
@@ -224,9 +256,9 @@ div.Card-Q1 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
-  background-size: 126%;
+  background-size: 120%;
   background-position-x: -50px;
-  background-position-y: -49px;
+  background-position-y: -23px;
 
 
 }
@@ -241,7 +273,7 @@ div.Card-Q2 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
-  background-size: 126%;
+  background-size: 120%;
   background-position-x: -50px;
   background-position-y: -49px;
 }
@@ -256,7 +288,7 @@ div.Card-Q3 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
-  background-size: 126%;
+  background-size: 120%;
   background-position-x: -50px;
   background-position-y: -49px;
 }
@@ -272,8 +304,8 @@ div.Card-Q4 {
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
   background-size: 130%;
-  background-position-x: -55px;
-  background-position-y: -55px;
+  background-position-x: -25px;
+  background-position-y: -25px;
 }
 div.Card-Q5 {
   width: 33%;
@@ -287,8 +319,8 @@ div.Card-Q5 {
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
   background-size: 130%;
-  background-position-x: -55px;
-  background-position-y: -55px;
+  background-position-x: -25px;
+  background-position-y: -25px;
 }
 
 
