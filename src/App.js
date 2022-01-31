@@ -1,5 +1,6 @@
 
 import logofull from "./LogoCWFull.png";
+import logoshort from "./CWLOGOSHORT.png";
 
 import RMBOTON from "./RMBOTON.png";
 import TBOTON from "./TBoton.png";
@@ -15,11 +16,21 @@ import './App.css';
 
 import CardDonate from "./components/CardDonate"
 import CardTrailer from './components/CardTrailer';
+
 import CardStory from './components/CardStory';
+
 import CardTeamJoaquin from './components/CardTeamJoaquin';
 import CardTeamChristian from "./components/CardTeamChristian";
 import CardTeamAitor from "./components/CardTeamAitor";
 import CardTeamMatias from "./components/CardTeamMatias"
+
+import CardQ1 from "./components/CardQ1";
+import CardQ2 from "./components/CardQ2";
+import CardQ3 from "./components/CardQ3";
+import CardQ4 from "./components/CardQ4";
+import CardQ5 from "./components/CardQ5";
+
+
 
 
 function App() {
@@ -106,26 +117,25 @@ function App() {
         </h1>
 
         <div className='GP-Text'>
-        <h3>
-          <span>JUEGO NFT</span><br/>
-          PLAY-<span>TO</span>-EARN<br/>
-          MMO<br/>
-          RPG
-        </h3>
+          <h3 className="GP-SubTitles">
+           <span>JUEGO NFT</span><br/>
+           PLAY-<span>TO</span>-EARN<br/>
+           MMO<br/>
+           RPG
+          </h3>
 
 
-          <h3>
+          <h3 className="GP-SubTitles">
             <span>PvP</span><br/>
             PvM<br/>
             EVENTOS <span>MIXTOS</span>
           </h3>
 
-          <h3>
-          CUMPLE<br/>
-          <span>MISIONES<br/>
-          DIARIAS<br/></span>
-          PARA GANAR TUS <span>RECOMPENSAS</span>
-
+          <h3 className="GP-SubTitles">
+           CUMPLE<br/>
+           <span>MISIONES
+           DIARIAS<br/></span>
+           PARA GANAR TUS <span>RECOMPENSAS</span>
           </h3>
           </div>
 
@@ -166,7 +176,17 @@ function App() {
         <h1 className='Road-Map-Title'>
           ROAD<br />
           <span>MAP</span>
+         
         </h1>
+        <div className="Cards-RM1">
+          <CardQ1/>
+          <CardQ2/>
+          <CardQ3/>
+        </div>
+        <div className="Cards-RM2">
+          <CardQ4/>
+          <CardQ5/>
+        </div>
 
 
       </section>

@@ -39,7 +39,8 @@ p.pheader {align-self: flex-start;font-size: 30px;}
 img.RMBoton {width: 300px;}
 img.TBoton {width: 300px;}
 
-img.Logo-Text-Header {width: 300px; align-content: center;}
+img.Logo-Text-Header {width: 300px;
+  margin: 0px 0px 0px -18px;}
 
 img.Title-Logo {width: 160px;}
 
@@ -59,7 +60,7 @@ section.Game-Trailer{background-color:none; display: flex; flex-direction: row;f
 div.Card-Trailer {box-sizing:content-box;width: 50%;background-color: #d06863; display: grid; justify-content: center;box-shadow: black 8px 8px 8px;background-image: url(gameplayimage.jpg);}
 h1.Game-Trailer-Title {display: grid; justify-content:end; color: white;font-size: 90px;font-weight: bold; margin-right: 30px;text-shadow: black 6px 4px 3px}
 img.Game-Trailer-Logo {width: 280px;}
-h3.Title-Card-Trailer {font-size: 35px;font-weight: 700; text-align: center;}
+h3.Title-Card-Trailer {font-size: 35px;font-weight: 700; text-align: center; color: white;}
 
 
 
@@ -68,14 +69,16 @@ h3.Title-Card-Trailer {font-size: 35px;font-weight: 700; text-align: center;}
 section.Game-Story{background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 30px;}
 h1.Game-Story-Title {color: white;font-size: 90px;font-weight: bold;margin-left:30px; display: grid; justify-content:start;text-shadow: black 6px 4px 3px}
 
-div.Card-Story {width: 50%; box-sizing: content-box;display: grid; justify-content: right;box-shadow: black 8px 8px 8px; background-image: url(gameplayimage.jpg); }
+div.Card-Story {width: 50%; box-sizing: content-box;display: grid; justify-content: right;box-shadow: black 8px 8px 8px; background-image: url(gameplayimage.jpg); background-size: 200%; background-position-x: -350px; }
 .pStory {font-size: 23px; font-weight: lighter;}
 
-section.Game-Play{background-color:none;background-color:none; display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 30px;}
+section.Game-Play{background-color:none;background-color:none; display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 0px; background-image: url(GamePlayImage.png); background-size: 100%;}
 h1.Game-Play-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px}
 div.GP-Text {
   display: flex; flex-direction: row; justify-content: space-between;text-shadow: black 2px 1px}
-h3 {color: white;}
+h3.GP-SubTitles  {color: white;
+  text-align: center;
+  margin: 0px 20px 0px 20px;}
 
 span {color:#f2023a}
 
@@ -163,10 +166,131 @@ div.Card-Team-Matias {
 img.Perfil-Matias {
   margin: 40px 0 0 0;
   width: 220px;
+ 
 }
 
 section.Road-Map{background-color:none;display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 30px;}
 h1.Road-Map-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px;}
+div.Cards-RM1 {
+  display: flex;
+  display: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+ 
+}
+div.Cards-RM2 {
+  display: flex;
+  display: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+div.card-header-Q {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+h3.card-title-Q{
+font-size: 60px;
+font-weight: bold;
+color: #f2023a;
+font-style: italic;
+}
+p.pQ{
+  font-size: 25px;
+  font-weight: normal;
+  color: black;
+}
+img.LogoCardRM {
+  width: 120px;
+}
+div.Card-Q1 {
+  width: 30%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-color: white;
+  text-align: start;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 5px 0px 20px;
+  background-image: url("./CardsQBackground.png");
+  background-size: 126%;
+  background-position-x: -50px;
+  background-position-y: -49px;
+
+
+}
+div.Card-Q2 {
+  width: 30%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-color: white; 
+  text-align: start;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 5px 0px 20px;
+  background-image: url("./CardsQBackground.png");
+  background-size: 126%;
+  background-position-x: -50px;
+  background-position-y: -49px;
+}
+div.Card-Q3 {
+  width: 30%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-color: white;
+  text-align: start;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 5px 0px 20px;
+  background-image: url("./CardsQBackground.png");
+  background-size: 126%;
+  background-position-x: -50px;
+  background-position-y: -49px;
+}
+div.Card-Q4 {
+  width: 33%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-color: white;
+  text-align: start;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 5px 0px 20px;
+  background-image: url("./CardsQBackground.png");
+  background-size: 130%;
+  background-position-x: -55px;
+  background-position-y: -55px;
+}
+div.Card-Q5 {
+  width: 33%;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: space-evenly;
+  box-shadow: black 8px 8px 8px;
+  background-color: white;
+  text-align: start;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 5px 0px 20px;
+  background-image: url("./CardsQBackground.png");
+  background-size: 130%;
+  background-position-x: -55px;
+  background-position-y: -55px;
+}
+
 
 
 footer {background-color:#f2023a;background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;}
