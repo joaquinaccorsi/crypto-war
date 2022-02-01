@@ -6,7 +6,7 @@ function CardQ3() {
 <div className='Card-Q3'>
     <div className='card-header-Q'>
      <h3 className='card-title-Q'>Q3</h3>
-     <img src={logoshort} className='LogoCardRM'/>
+     <img src={logoshort} className='LogoCardRM'alt='logoshort'/>
     </div>
     <p className='pQ'>
      -Web de registro​ <br/>

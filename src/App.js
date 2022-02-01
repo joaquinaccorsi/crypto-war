@@ -38,13 +38,13 @@ function App() {
   return (
     <div className="App">
       <navbar className="NavBar">
-        <img src={logofull} className="NavBar-logo" alt="logo" />
+        <img src={logofull} className="NavBar-logo" alt="logofull" />
 
-        <a href="Inicio" ><img src={HOMEBOTON} className="BotonHome"/></a>
+        <a href="Inicio" ><img src={HOMEBOTON} className="BotonHome" alt="botonhome"/></a>
 
        <nav className='menu'>
          <a href='#' className='InicioSesion'> iniciá sesión</a>
-         <a href='#'><img src={BotonRegistro} className='BotonRegistro'/></a>         
+         <a href='#'><img src={BotonRegistro} className='BotonRegistro' alt="botonregistro"/></a>         
        </nav>
 
       </navbar>
@@ -57,7 +57,7 @@ function App() {
         <div className='Header-Text'>
         <p className='pheader'>
           Entrá al mundo de 
-          <img src={logofull} className='Logo-Text-Header'/> <br/>
+          <img src={logofull} className='Logo-Text-Header'alt="logofull"/> <br/>
           Conquista reinos, lucha contra bestias <br/>
           destruye a los <strong>Jefes</strong> <br/>
           y vive la experiencia medieval.
@@ -83,8 +83,8 @@ function App() {
           <a href='#Game-Story'><img src={"#"} className='GSBoton'/></a>
           <a href='#Game-Play'><img src={"#"} className='GPBoton'/></a>
           <a href='#Cofres'><img src={"#"} className='CBoton'/></a>
-          <a href='#Team'><img src={TBOTON} className='TBoton'/></a>
-          <a href='#Road-Map'><img src={RMBOTON} className='RMBoton'/></a>
+          <a href='#Team'><img src={TBOTON} className='TBoton'alt="botonteam"/></a>
+          <a href='#Road-Map'><img src={RMBOTON} className='RMBoton'alt="botonroadmap"/></a>
           <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
            
 
@@ -99,7 +99,7 @@ function App() {
         <h1 className='Game-Trailer-Title'>
           GAME<br />
           <span>TRAILER</span><br/>
-          <img src={DragonAzul} className='Dragon-Azul' id='Dragon-Azul'/>
+          <img src={DragonAzul} className='Dragon-Azul' id='Dragon-Azul'alt="dragonazul"/>
           
         </h1>
 
@@ -108,7 +108,7 @@ function App() {
           <h1 className='Game-Story-Title'>
             GAME<br />
             <span>STORY</span><br/>
-            <img src={Imperios} className='Imperios'/>
+            <img src={Imperios} className='Imperios'alt="imperios"/>
           </h1>
           <CardStory/>
       </section>
@@ -137,7 +137,8 @@ function App() {
            CUMPLE<br/>
            <span>MISIONES
            DIARIAS<br/></span>
-           PARA GANAR TUS <span>RECOMPENSAS</span>
+           PARA GANAR<br/>
+           TUS <span>RECOMPENSAS</span>
           </h3>
           </div>
 
@@ -151,8 +152,8 @@ function App() {
         </h1>
 
         <div className='RecursosCofres'>
-        <img src={Guerrera} className='Guerrera'/>
-        <img src={Ninja} className='Ninja'/>
+        <img src={Guerrera} className='Guerrera'alt="guerrera"/>
+        <img src={Ninja} className='Ninja'alt="ninja"/>
         </div>
 
 

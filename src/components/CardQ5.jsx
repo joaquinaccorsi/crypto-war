@@ -6,7 +6,7 @@ function CardQ5() {
 <div className='Card-Q5'>
     <div className='card-header-Q'>
      <h3 className='card-title-Q'>Q1 '23</h3>
-     <img src={logoshort} className='LogoCardRM'/>
+     <img src={logoshort} className='LogoCardRM'alt='logoshort'/>
     </div>
     <p className='pQ'>
      -Nivel Máx 120​<br/>

@@ -5,7 +5,7 @@ function CardTeamMatias() {
     return ( 
 <div className='Card-Team-Matias'>
 
-    <img src={PerfilMatias} className='Perfil-Matias'/>
+    <img src={PerfilMatias} className='Perfil-Matias'alt='fotoperfil'/>
 
     <p className='pNameTeam'>
         Matias <span>Andreu</span>

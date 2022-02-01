@@ -5,19 +5,23 @@ function CardStory() {
     return ( 
 <div className='Card-Story'>
     <div className='card-title'>
-     <h3>Se parte de <img src={logofull} className='Game-Trailer-Logo'/></h3>
+     <img src={logofull} className='Game-Trailer-Logo'alt='logofull'/>
     </div>
-    <p className='pStory'>
-        Desde hace milenios los tres Reinos de CryptoWar estuvieron enfrentados para conquistar su imperio.
-        Hasta que un día fueron amenazados por increíbles criaturas, criaturas sedienta de hambre, dominadas por sus Jefes!
-        Los reinos se aliaron para unir fuerzas , pero de nada les sirvió... 
-        Perdieron muchos ejércitos y la gran mayoría de sus tierras.
-        Finalmente se refugiaron en sus respectivas aldeas en las que quedaron prácticamente descubiertos con muchísimo miedo pero jamás perdieron su fe.
-        Años después los jefes descubrieron donde se encontraba los supervivientes humanos y mandaron a sus criaturas a eliminarlos, pero al llegar a las aldeas se encontraron con un nuevo enemigo, los Medio-Humanos.
-        Los Medio-humanos eran Legendario de la lucha y los componían 4 razas: Los Guerreros y Guerreras, hombres y mujeres con una fuerza sobre natural, los y las Suras que vendieron sus almas al Demonio a cambio de ser lideres 
-        de la magia negra, los y las Ninjas con su rapidez y su habilidad para matar ,los Chamanes y Chamanas dioses de la magia de luz.
-        Las 4 razas se aliaron con los 3 reinos para luchar contra las criaturas y matar a sus Jefes!! Dándole a cambio monedas
-        Crypto War           
+    <p  className='pStory'>
+        Desde hace milenios los tres <span>Reinos de Crypto War</span> estuvieron enfrentados para conquistar su imperio.<br/>
+        Hasta que un día fueron amenazados por increíbles criaturas, sedientas de sangre, dominadas por sus <span>Jefes</span>!<br/>
+        Los Reinos se aliaron para unir fuerzas , pero de nada les sirvió... 
+        Perdieron muchos ejércitos y la gran mayoría de sus tierras.<br/>
+        Finalmente se refugiaron en sus respectivas aldeas en las que quedaron prácticamente descubiertos con muchísimo miedo pero jamás perdieron su fe.<br/><br/>
+        Años después los <span>Jefes</span> descubrieron donde se encontraba los supervivientes humanos y mandaron a sus criaturas a eliminarlos, pero al llegar a las aldeas se encontraron con un nuevo enemigo, los <span>Medio-Humanos</span>.<br/>
+        Los Medio-humanos eran legendarios maestros del combate y los componían <span>4 Razas</span>:<br/> 
+        <span>Los Guerreros y Guerreras</span>, hombres y mujeres con una fuerza sobre natural.<br/> 
+        <span>Los Suras</span> que vendieron sus almas al Demonio a cambio de ser lideres 
+        de la magia negra.<br/>
+        <span>Los Ninjas</span> con su rapidez y habilidad para eliminar enemigos.<br/>
+        <span>Los Chamanes y Chamanas</span> hechiceros de luz.<br/><br/>
+
+        <span>Las 4 Razas se aliaron con los Reinos para luchar contra las criaturas y matar a sus Jefes.</span>           
     </p>
 
 </div>

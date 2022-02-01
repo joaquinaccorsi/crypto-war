@@ -7,17 +7,37 @@ body {
 
 }
 
-div#root {font-family: playfair-display; background-image: url(Capa\ 2.png);background-size: 120%;background-position-x: -30px;background-position-y: -30px;margin: none;scroll-behavior: smooth;}
+div#root {font-family: playfair-display;
+  background-image: url(Capa\ 2.png);
+  background-size: 120%;
+
+  background-position-x: -30px;
+  background-position-y: -30px;
+  margin: none;
+  scroll-behavior: smooth;
+}
+
 div.App{background-color: none;text-align: unset;}
 
 navbar.NavBar {color: withe; width: 100%;background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-between;align-items: flex-start;}
 img.NavBar-logo {width: 250px;text-align: start; margin: 15px 0px 0px 10px;}
 ul.menu{color: white;text-align: end;}
 a.InicioSesion {
-  text-decoration: none; color: white; font-size: 20px; font-weight:normal;text-shadow: black 3px 2px 1px
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight:normal;
+  text-shadow: black 3px 2px 1px
+}
+a.InicioSesion:hover {
+  font-size: 25px;
+  color: #f2023a;
 }
 
 img.BotonRegistro {width: 200px;}
+img.BotonRegistro:hover {
+  width: 220px;
+}
 
 .Inicio {
   background-color:none;
@@ -28,27 +48,50 @@ img.BotonRegistro {width: 200px;}
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  scroll-behavior: smooth;
 }
 img.BotonHome {
   position: fixed;
-  width: 50px;
+  width: 55px;
   margin: 15px;
-  scroll-behavior: smooth;
+
+  filter:drop-shadow(black 3px 5px 3px);
+  opacity: 0.5;
+  
 }
 
-:hover img.BotonHome {
+img.BotonHome:hover {
   box-shadow: black 1px 2px 3px;
+  opacity: 1;
 }
 
-h1.Header-Title {font-size: 70px;margin-bottom: 10rem; font-weight: bolder; text-align: center;text-shadow: black 6px 4px 3px;}
+h1.Header-Title {
+  font-size: 70px;
+  margin-bottom: 10rem;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: black 6px 4px 3px;
+}
 
 div.Header-Text {
-  display: flex; flex-direction: row; justify-content: space-between;text-shadow: black 2.5px 1.5px 2px
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-shadow: black 2.5px 1.5px 2px
 }
-p.pheader {align-self: flex-start;font-size: 30px;}
+p.pheader {
+  align-self: flex-start;
+  font-size: 30px;
+}
 
 img.RMBoton {width: 300px;}
+img.RMBoton:hover {
+  width: 320px;
+}
 img.TBoton {width: 300px;}
+img.TBoton:hover {
+  width: 320px;
+}
 
 img.Logo-Text-Header {width: 300px;
   margin: 0px 0px 0px -18px;}
@@ -68,15 +111,18 @@ button.btn-light {width: 100px; font-size: 10px;}
 
 
 section.Game-Trailer{background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-between;align-items: center;margin: 30px 30px;}
-div.Card-Trailer {box-sizing:content-box;
+div.Card-Trailer {
+  box-sizing:content-box;
   width: 50%;
   display: grid;
   justify-content: center;
+  justify-items: center;
   box-shadow: black 8px 8px 8px
   ;background-image: url(CardsQBackground.png);
   background-size: 110%;
   background-position-x: -25px;
   background-position-y: -28px;
+  
   
 }
 h1.Game-Trailer-Title {
@@ -86,31 +132,120 @@ h1.Game-Trailer-Title {
   font-size: 90px;
   font-weight: bold;
   margin-right: 30px;
-  text-shadow: black 6px 4px 3px}
-img.Game-Trailer-Logo {width: 280px;}
-h3.Title-Card-Trailer {font-size: 35px;
+  text-shadow: black 6px 4px 3px
+}
+
+img.Game-Trailer-Logo {
+  width: 280px;
+
+}
+
+h3.Title-Card-Trailer {
+  font-size: 35px;
   font-weight: 700;
   text-align: center;
   color: white;
-  margin-top: 18px;}
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+iframe.TrailerYT {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0px 0px 25px 40px;
+  position: relative;
+
+}
 
 
 
+section.Game-Story{
+  background-color:none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 30px;
+}
+h1.Game-Story-Title {
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  margin-left:30px;
+  display: grid;
+  justify-content:start;
+  text-shadow: black 6px 4px 3px
+}
 
-
-section.Game-Story{background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 30px;}
-h1.Game-Story-Title {color: white;font-size: 90px;font-weight: bold;margin-left:30px; display: grid; justify-content:start;text-shadow: black 6px 4px 3px}
-
-div.Card-Story {width: 50%; box-sizing: content-box;display: grid; justify-content: right;box-shadow: black 8px 8px 8px; background-image: url(gameplayimage.jpg); background-size: 200%; background-position-x: -350px; }
-.pStory {font-size: 23px; font-weight: lighter;}
-
-section.Game-Play{background-color:none;background-color:none; display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 0px; background-image: url(GamePlayImage.png); background-size: 100%; height: 800px;}
-h1.Game-Play-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px}
-div.GP-Text {
-  display: flex; flex-direction: row; justify-content: space-between;text-shadow: black 2px 1px;font-weight: bolder;}
-h3.GP-SubTitles  {color: white;
+div.Card-Story {
+  width: 50%;
+  height: 390px;
+  box-sizing: content-box;
+  display: grid;
+  justify-content: right;
+  justify-items: center;
+  box-shadow: black 8px 8px 8px;
+  background-image: url(PapiroBackground.png);
+  background-size: 100%;
+   
+}
+img.Game-Trailer-Logo {
+  width: 450px;
+  margin-top: 30px;
+}
+.pStory {
+  font-size: 25px;
+  font-weight: lighter;
+  display:inline-block;
+  max-width: 85%;
+  height: 88%;
+  overflow:scroll;
   text-align: center;
-  margin: 0px 20px 0px 20px; font-size: 40px;}
+  color: black;
+  margin-top: 0px;
+
+ 
+}
+
+section.Game-Play{
+  background-color:none;
+  background-color:none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0px;
+  background-image: url(GamePlayImage.png);
+  background-size: 100%;
+  height: 800px;
+}
+
+h1.Game-Play-Title {
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: black 6px 4px 3px
+}
+
+div.GP-Text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-shadow: black 2px 1px;
+  font-weight: bolder;
+}
+
+h3.GP-SubTitles  {
+  color: white;
+  text-align: center;
+  margin: 0px 30px 0px 30px;
+  font-size: 45px;
+}
+
 
 span {color:#f2023a}
 
@@ -139,7 +274,10 @@ div.Card-Team-Joaquin {
   align-items: center;
   justify-items: center;
   margin: 10px 10px 10px 10px;
- }
+  flex-wrap: wrap;
+}
+
+
 
 .pNameTeam {font-size: 35px; font-weight: bolder;color: white;}
 .pRolTeam {font-size: 25px;font-weight:lighter;color: white;}
@@ -147,6 +285,10 @@ div.Card-Team-Joaquin {
 img.Perfil-Joaquin {
   margin: 40px 0 0 0;
   width: 240px;
+  
+}
+img.Perfil-Joaquin:hover {
+  box-shadow: black 3px 3px 3px;
 }
 
 div.Card-Team-Christian {
@@ -165,6 +307,9 @@ img.Perfil-Christian {
   margin: 40px 0 0 0;
   width: 220px;
 }
+img.Perfil-Christian:hover {
+  box-shadow: black 3px 3px 3px;
+}
 
 div.Card-Team-Aitor {
   width: 25%;
@@ -182,6 +327,9 @@ img.Perfil-Aitor {
   margin: 40px 0 0 0;
   width: 220px;
 }
+img.Perfil-Aitor:hover {
+  box-shadow: black 3px 3px 3px;
+}
 div.Card-Team-Matias {
   width: 25%;
   box-sizing: content-box;
@@ -197,8 +345,10 @@ div.Card-Team-Matias {
  }
 img.Perfil-Matias {
   margin: 40px 0 0 0;
-  width: 220px;
- 
+  width: 220px; 
+}
+img.Perfil-Matias:hover {
+  box-shadow: black 3px 3px 3px;
 }
 
 section.Road-Map{background-color:none;display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 30px 30px;}
@@ -325,12 +475,29 @@ div.Card-Q5 {
 
 
 
-footer {background-color:#f2023a;background-color:none; display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around;align-items: center;}
-a.Terminos-y-Condiciones{color: white; font-size: 20px; text-align: center;}
-a.Privacidad{color: white;font-size: 20px;text-align: center;}
+footer {background-color:#f2023a;
+  background-color:none;
+  display: flex;
+  flex-direction: row;flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+a.Terminos-y-Condiciones{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+a.Privacidad{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
 
-
+a.Privacidad:hover,a.Terminos-y-Condiciones:hover {
+  color: black;
+}
 
 
 code {
-  font-family: playfair-display; }
+  font-family: playfair-display;
+}

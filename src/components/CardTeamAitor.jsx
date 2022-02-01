@@ -5,7 +5,7 @@ function CardTeamAitor() {
     return ( 
 <div className='Card-Team-Aitor'>
 
-    <img src={PerfilAitor} className='Perfil-Aitor'/>
+    <img src={PerfilAitor} className='Perfil-Aitor'alt='fotoperfil'/>
 
     <p className='pNameTeam'>
         Aitor <span>Soler</span>
