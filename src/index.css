@@ -269,7 +269,7 @@ div.Card-Team-Joaquin {
   display: grid;
   justify-content: space-evenly;
   box-shadow: black 8px 8px 8px;
-  background-image: url(http://localhost:3000/static/media/gameplayimage.916a1f3bd0a2a09eb30d.jpg);
+  background-image: url(gameplayimage.jpg);
   align-content: center;
   align-items: center;
   justify-items: center;

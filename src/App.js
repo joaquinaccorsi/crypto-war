@@ -1,21 +1,27 @@
+import './App.css';
+
+
+
 
 import logofull from "./LogoCWFull.png";
-import logoshort from "./CWLOGOSHORT.png";
 
+
+
+import BotonRegistro from "./BotonRegistro.png";
 import RMBOTON from "./RMBOTON.png";
 import TBOTON from "./TBoton.png";
 import HOMEBOTON from "./FlechaArriba1.png";
 
 import DragonAzul from "./dragon azul.png";
 import Imperios from "./imperios.png";
-import RMBoton from "./RMBOTON.png";
-import BotonRegistro from "./BotonRegistro.png";
+
+
 import Guerrera from "./guerrera.png";
 import Ninja from "./ninja.png";
-import "./Animation";
-import './App.css';
 
-import CardDonate from "./components/CardDonate"
+
+
+
 import CardTrailer from './components/CardTrailer';
 
 import CardStory from './components/CardStory';
@@ -30,68 +36,24 @@ import CardQ2 from "./components/CardQ2";
 import CardQ3 from "./components/CardQ3";
 import CardQ4 from "./components/CardQ4";
 import CardQ5 from "./components/CardQ5";
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+
+
 
 
 
 
 function App() {
+
   return (
     <div className="App">
-      <navbar className="NavBar">
-        <img src={logofull} className="NavBar-logo" alt="logofull" />
 
-        <a href="Inicio" ><img src={HOMEBOTON} className="BotonHome" alt="botonhome"/></a>
+      <Navbar/>
 
-       <nav className='menu'>
-         <a href='#' className='InicioSesion'> iniciá sesión</a>
-         <a href='#'><img src={BotonRegistro} className='BotonRegistro' alt="botonregistro"/></a>         
-       </nav>
 
-      </navbar>
-      <header className="Inicio">
+      <Header/>
 
-        <h1 className='Header-Title'>
-          ¡<span>ÚNETE</span> A LA BATALLA!
-        </h1>
-
-        <div className='Header-Text'>
-        <p className='pheader'>
-          Entrá al mundo de 
-          <img src={logofull} className='Logo-Text-Header'alt="logofull"/> <br/>
-          Conquista reinos, lucha contra bestias <br/>
-          destruye a los <strong>Jefes</strong> <br/>
-          y vive la experiencia medieval.
-        </p>
-
-        <p className='pheader'>
-
-         - <span>MMORPG</span> de ACCIÓN/AVENTURA
-         <br/>
-         - PLAY- <span>TO</span> - EARN
-         <br/>
-         - MARKET PLACE <span>NFT</span>
-         <br/>
-         - TIENDA OFICIAL <span>CW STORE</span>
-         <br/>
-
-        </p> 
-        </div>  
-
-        <div className='BotonesHeader'>
-
-          <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
-          <a href='#Game-Story'><img src={"#"} className='GSBoton'/></a>
-          <a href='#Game-Play'><img src={"#"} className='GPBoton'/></a>
-          <a href='#Cofres'><img src={"#"} className='CBoton'/></a>
-          <a href='#Team'><img src={TBOTON} className='TBoton'alt="botonteam"/></a>
-          <a href='#Road-Map'><img src={RMBOTON} className='RMBoton'alt="botonroadmap"/></a>
-          <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
-           
-
-        </div>
-
- 
-      </header>
 
       <section className='Game-Trailer'>
         <CardTrailer/>
@@ -198,14 +160,12 @@ function App() {
         de uso</a>
         <a className='Privacidad'>Privacidad</a> 
       </footer>
-      
-      
-      
-      
+            
     </div>
     
   );
 }
+
 
 
 export default App;

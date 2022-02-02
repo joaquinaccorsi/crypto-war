@@ -1,32 +1,10 @@
-window.addEventListener("scroll",function(){
+let ScrollReveal;
 
-    let DragonAzul = document.getElementById("Dragon-Azul");
-
-   let altura = window.innerHeight/3;
-
-   let distancia = DragonAzul.getBoundingClientRect().top;
-
-   
-
-
-   console.log(altura)
-   console.log(distancia)
-
-   if(distancia <= altura){
-
-    DragonAzul.classList.add(".Dragon-Azul-Animation",".translate");
-
-
-   }
-
-   else {
-       DragonAzul.classList.remove(".Dragon-Azul-Animation","translate");
-   }
-
-
-
-
-});
-
-
+ScrollReveal().reveal(".Inicio");
+ScrollReveal().reveal(".Game-Trailer");
+ScrollReveal().reveal(".Game-Story");
+ScrollReveal().reveal(".Game-Play");
+ScrollReveal().reveal(".Cofres");
+ScrollReveal().reveal(".Team");
+ScrollReveal().reveal(".Road-Map");
 
