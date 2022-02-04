@@ -20,14 +20,14 @@ function Header() {
 
 
 
-        <h1 className='Header-Title'>
+        <h1 className='Header-Title' >
          ¡<span>ÚNETE</span> A LA BATALLA!
         </h1>
 
         <div className='Header-Text'>
             <p className='pheader'>
                Entrá al mundo de 
-               <img src={logofull} className='Logo-Text-Header'alt="logofull"/> <br/>
+               <img src={logofull} className='Logo-Text-Header'alt="logofull"data-anijs="if: click, do: flipInY animated"/> <br/>
                Conquista reinos, lucha contra bestias <br/>
                destruye a los <strong>Jefes</strong> <br/>
                y vive la experiencia medieval.

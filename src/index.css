@@ -61,6 +61,7 @@ img.BotonRegistro:hover {
   scroll-behavior: smooth;
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(city\ 1.PNG) fixed no-repeat center center;
   background-size: cover;
+  padding: 10px 20px 40px 20px;
 
 }
 img.BotonHome {
@@ -130,8 +131,9 @@ section.Game-Trailer{background-color:none;
   justify-content: space-between;
   align-items: center;
   margin: 15px 0px;
+  padding: 10px 20px 40px 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
-  url(desierto\ 3.PNG) fixed no-repeat center center;
+  url(desierto\ 4.PNG) fixed no-repeat center center;
   background-size: cover;
 }
 div.Card-Trailer {
@@ -190,7 +192,8 @@ section.Game-Story{
   justify-content: space-around;
   align-items: center;
   margin: 15px 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(montaña\ hielo.PNG) fixed no-repeat center center;
+  padding: 10px 20px 40px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(montaña\ hielo\ 4.PNG) fixed no-repeat center center;
   background-size: cover;
 }
 h1.Game-Story-Title {
@@ -243,8 +246,9 @@ section.Game-Play{
   justify-content: space-around;
   align-items: center;
   margin: 15px 0px;
+  padding: 10px 20px 40px 20px;
 
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(bosque.PNG) fixed no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(torre\ demonio.PNG) fixed no-repeat center center;
   background-size: cover;
  
   height: 800px;
@@ -278,14 +282,28 @@ h3.GP-SubTitles  {
 
 span {color:#f2023a}
 
-section.Cofres{background-color:none;display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 15px 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(montaña\ hielo.PNG) fixed no-repeat center center;
+section.Cofres{background-color:none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0px;
+  padding: 10px 20px 40px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(city2.PNG) fixed no-repeat center center;
   background-size: cover;}
 h1.Cofres-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px}
 
 
-section.Team{background-color:none;display: flex; flex-direction: column;flex-wrap: wrap; justify-content: space-around;align-items: center;margin: 0px 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(volcan.PNG) fixed no-repeat center center;
+section.Team{background-color:none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0px;
+  padding: 10px 20px 40px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(torre\ demonio\ 2.PNG) fixed no-repeat center center;
   background-size: cover;}
 h1.Team-Title {font-size: 90px;font-weight: bold; text-align: center;text-shadow: black 6px 4px 3px}
 
@@ -403,9 +421,11 @@ section.Road-Map{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 0px 0px;
+  margin: 20px 0px;
+  padding: 10px 20px 40px 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(volcan.PNG) fixed no-repeat center center;
-  background-size: cover;}
+  background-size: cover;
+}
 h1.Road-Map-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px;}
 div.Cards-RM1 {
   display: flex;
