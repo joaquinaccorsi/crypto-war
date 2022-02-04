@@ -4,6 +4,11 @@ import videotrailer from "../Crypto-War-Trailer.mp4"
 
 import RMBOTON from "../RMBOTON.png";
 import TBOTON from "../TBoton.png";
+import IconInstagram from "../IconInstagram.png";
+import IconDiscord from "../IconDiscord.png";
+import IconFacebook from "../IconFacebook.png";
+import IconTwitter from "../IconTwitter.png";
+import IconLinkedin from "../IconLinkedin.png";
 
 
 
@@ -58,6 +63,16 @@ function Header() {
           <a href='#Game-Trailer'><img src={"#"} className='GTBoton'/></a>
    
 
+        </div>
+        <h1 className='SocialMedia-Title'>
+            ¡SUMATE A LA COMUNIDAD!
+        </h1>
+        <div className='SocialMedia'>
+            <a href='#'><img src= {IconInstagram} className='IconInstagram'/></a>
+            <a href='#'><img src= {IconDiscord} className='IconDiscord'/></a>
+            <a href='#'><img src= {IconFacebook}className='IconFacebook'/></a>
+            <a href='#'><img src= {IconTwitter} className='IconTwitter'/></a>
+            <a href='#'><img src={IconLinkedin} className='IconLinkedin'/></a>
         </div>
 
 
