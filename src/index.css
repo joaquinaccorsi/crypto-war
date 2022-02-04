@@ -30,7 +30,7 @@ navbar.NavBar {color: withe;
   align-items: flex-start;
   background:linear-gradient(rgba(0, 0, 0, 1),rgba(242,3,59,0.6));
 }
-img.NavBar-logo {width: 250px;text-align: start; margin: 15px 0px 0px 10px;}
+img.NavBar-logo {width: 250px;text-align: start; margin: 25px 0px 0px 10px;}
 ul.menu{color: white;text-align: end;}
 a.InicioSesion {
   text-decoration: none;
