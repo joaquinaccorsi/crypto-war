@@ -8,26 +8,28 @@
 
 img.Dragon-Azul {animation-iteration-count:infinite; 
   animation-name: dragon-azul;
-  animation-duration: 10s;
-  animation-delay: 5s;
+  animation-duration: 15s;
+  animation-delay: 2s;
   animation-timing-function: linear;
   position: relative;
+  width: 500px;
   
 }
 
 @keyframes dragon-azul{
   0% {
     transform: translateX(0%);
-    opacity: 0.5;
+    opacity: 0;
     
   }
   50% {
-    transform: translateX(-20%);
+
+    transform: translateX(-25%);
     opacity: 1;
   }
   100%{
     transform: translateX(0%);
-    opacity: 0.5;
+    opacity: 0;
     
   }
 }
@@ -40,6 +42,7 @@ img.Imperios {width: 370px;
   animation-delay: 5s;
   animation-timing-function:linear;
   position: relative;
+
 }
 @keyframes Imperios {
   0%{
@@ -62,8 +65,8 @@ img.Imperios {width: 370px;
 
 img.Guerrera { 
   animation-name: Guerrera;
-  animation-delay: 5s;
-  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-duration: 15s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   align-self: flex-end;
@@ -75,20 +78,20 @@ img.Guerrera {
     
   0%{
 
-    opacity: 0.5;
-    transform: translateX(-20%);
+    opacity: 0;
+    transform: translateX(-50%);
   }
 
   50%{
-    transform: scale(1.2);
+
     opacity: 1;
     transform: translateX(0%);
   }
 
   100% {
 
-    opacity: 0.5;
-    transform: translateX(-20%);
+    opacity: 0;
+    transform: translateX(-50%);
 
   }
 
@@ -96,8 +99,8 @@ img.Guerrera {
 
 img.Ninja { 
   animation-name: Ninja;
-  animation-delay: 5s;
-  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-duration: 15s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 
@@ -109,8 +112,8 @@ img.Ninja {
     
   0%{
 
-    opacity: 0.5;
-    transform: translateX(20%);
+    opacity: 0;
+    transform: translateX(50%);
   }
 
   50%{
@@ -121,8 +124,8 @@ img.Ninja {
 
   100% {
 
-    opacity: 0.5;
-    transform: translateX(20%);
+    opacity: 0;
+    transform: translateX(50%);
 
   }
 

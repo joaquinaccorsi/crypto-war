@@ -1,13 +1,23 @@
 import React from 'react';
 import logofull from "../LogoCWFull.png";
+import videotrailer from "../Crypto-War-Trailer.mp4"
 
 import RMBOTON from "../RMBOTON.png";
 import TBOTON from "../TBoton.png";
 
 
+
 function Header() {
     return ( 
+
+    
+        
     <header className="Inicio">
+
+        <video className='video-content' muted autoPlay loop>
+            <source src={videotrailer} className='video-trailer'/>
+        </video>
+
 
 
         <h1 className='Header-Title'>
@@ -53,10 +63,14 @@ function Header() {
 
     </header>
 
+
+
    )   
   }
   
+
   
   export default Header;
+ 
 
 

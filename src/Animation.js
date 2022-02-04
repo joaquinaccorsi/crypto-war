@@ -1,10 +1,9 @@
 let ScrollReveal;
 
-ScrollReveal().reveal(".Inicio");
-ScrollReveal().reveal(".Game-Trailer");
-ScrollReveal().reveal(".Game-Story");
-ScrollReveal().reveal(".Game-Play");
-ScrollReveal().reveal(".Cofres");
-ScrollReveal().reveal(".Team");
-ScrollReveal().reveal(".Road-Map");
-
+ScrollReveal().reveal(".Inicio",{delay: 200});
+ScrollReveal().reveal(".Game-Trailer",{delay: 500});
+ScrollReveal().reveal(".Game-Story",{delay: 750});
+ScrollReveal().reveal(".Game-Play",{delay: 1000});
+ScrollReveal().reveal(".Cofres",{delay: 1250});
+ScrollReveal().reveal(".Team",{delay: 1500});
+ScrollReveal().reveal(".Road-Map",{delay: 1750});

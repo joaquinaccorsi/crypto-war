@@ -1,26 +1,10 @@
 import './App.css';
 
 
-
-
-import logofull from "./LogoCWFull.png";
-
-
-
-import BotonRegistro from "./BotonRegistro.png";
-import RMBOTON from "./RMBOTON.png";
-import TBOTON from "./TBoton.png";
-import HOMEBOTON from "./FlechaArriba1.png";
-
 import DragonAzul from "./dragon azul.png";
 import Imperios from "./imperios.png";
-
-
-import Guerrera from "./guerrera.png";
-import Ninja from "./ninja.png";
-
-
-
+import Guerreros from "./Guerreros.png";
+import Ninjas from "./Ninjas.png";
 
 import CardTrailer from './components/CardTrailer';
 
@@ -36,7 +20,10 @@ import CardQ2 from "./components/CardQ2";
 import CardQ3 from "./components/CardQ3";
 import CardQ4 from "./components/CardQ4";
 import CardQ5 from "./components/CardQ5";
+
 import Header from './components/Header';
+
+
 import Navbar from './components/Navbar';
 
 
@@ -44,13 +31,22 @@ import Navbar from './components/Navbar';
 
 
 
+
+
+
+
+
+let classNames= require ("classnames");
+classNames ("foo","bar");
+
+
 function App() {
 
+
   return (
-    <div className="App">
+    <div className="App" >
 
       <Navbar/>
-
 
       <Header/>
 
@@ -114,8 +110,8 @@ function App() {
         </h1>
 
         <div className='RecursosCofres'>
-        <img src={Guerrera} className='Guerrera'alt="guerrera"/>
-        <img src={Ninja} className='Ninja'alt="ninja"/>
+        <img src={Guerreros} className='Guerrera'alt="guerrera"/>
+        <img src={Ninjas} className='Ninja'alt="ninja"/>
         </div>
 
 
