@@ -9,14 +9,14 @@ function CardQ4() {
      <img src={logoshort} className='LogoCardRM'alt='logoshort'/>
     </div>
     <p className='pQ'>
-    -Lanzamiento de la BETA​<br/>
-    -Lanzamiento del juego oficial<br/>​
-    -Marketplace​<br/>
-     -Listado en Coinmarketcap y Coingecko<br/>​
-     -Marketing / youtubers / influences​<br/>
-     -Venta pública de NFT PVP​<br/>
-     -Eventos Multiples (pesca, mineria, OX, guerra de reinos, etc)<br/>​
-     -Torneos PVP​ 
+      -Lanzamiento de la BETA​<br/>
+      -Lanzamiento del juego oficial<br/>​
+      -Marketplace​<br/>
+      -Listado en Coinmarketcap y Coingecko<br/>​
+      -Marketing / youtubers / influences​<br/>
+      -Venta pública de NFT PVP​<br/>
+      -Eventos Multiples (pesca, mineria, OX, guerra de reinos, etc)<br/>​
+      -Torneos PVP​ 
     </p>
 
 </div>

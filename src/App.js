@@ -26,6 +26,8 @@ import Header from './components/Header';
 
 import Navbar from './components/Navbar';
 
+import Footer from "./components/Footer";
+
 
 
 
@@ -81,13 +83,13 @@ function App() {
            <span>JUEGO NFT</span><br/>
            PLAY-<span>TO</span>-EARN<br/>
            MMO<br/>
-           RPG
+           <span>RPG</span>
           </h3>
 
 
           <h3 className="GP-SubTitles">
-            <span>PvP</span><br/>
-            PvM<br/>
+            <span>PvP</span><br/><br/>
+            PvM<br/><br/>
             EVENTOS <span>MIXTOS</span>
           </h3>
 
@@ -111,6 +113,7 @@ function App() {
 
         <div className='RecursosCofres'>
         <img src={Guerreros} className='Guerrera'alt="guerrera"/>
+        
         <img src={Ninjas} className='Ninja'alt="ninja"/>
         </div>
 
@@ -151,11 +154,9 @@ function App() {
 
 
       </section>
-      <footer className="Page-Footer">
-        <a className='Terminos-y-Condiciones'>Términos y Condiciones<br/>
-        de uso</a>
-        <a className='Privacidad'>Privacidad</a> 
-      </footer>
+
+      <Footer/>
+
             
     </div>
     

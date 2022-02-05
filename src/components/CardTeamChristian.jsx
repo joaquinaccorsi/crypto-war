@@ -18,9 +18,9 @@ function CardTeamChristian() {
     </p>
 
     <div className='SocialMediaTeam'>
-            <a href='#'><img src= {IconInstagram} className='IconInstagram'/></a>
+            <a href='#' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
 
-            <a href='#'><img src={IconLinkedin} className='IconLinkedin'/></a>
+            <a href='#' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
     </div>
 
 

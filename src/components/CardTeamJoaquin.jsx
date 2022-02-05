@@ -1,6 +1,7 @@
 import React from 'react';
 import PerfilJoaquin from "../PerfilJoaquin.jpg";
-
+import IconInstagram from "../IconInstagram.png";
+import IconLinkedin from "../IconLinkedin.png";
 function CardTeamJoaquin() {
     return ( 
 <div className='Card-Team-Joaquin'>
@@ -14,6 +15,12 @@ function CardTeamJoaquin() {
     <p className='pRolTeam'>
     CTO - DISEÑO 
     </p>
+
+    <div className='SocialMediaTeam'>
+            <a href='#' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
+
+            <a href='#' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
+    </div>
 
 
 

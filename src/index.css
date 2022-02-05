@@ -51,7 +51,7 @@ img.BotonRegistro:hover {
 
 .Inicio {
   background-color:none;
-  min-height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +60,8 @@ img.BotonRegistro:hover {
   color: white;
   scroll-behavior: smooth;
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
-  url(city\ 1.PNG) fixed no-repeat center center;
+  url(torre\ demonio\ 3.PNG) fixed no-repeat ;
+  background-position-y: 15px;
   background-size: cover;
   padding: 10px 20px 40px 20px;
 
@@ -70,7 +71,7 @@ img.BotonHome {
   width: 55px;
   margin: 15px;
 
-  filter:drop-shadow(black 3px 5px 3px);
+  filter:drop-shadow(black 4px 6px 5px);
   opacity: 0.8;
   
 }
@@ -94,8 +95,9 @@ div.Header-Text {
   flex-direction: row;
   justify-content: space-between;
   text-shadow: black 2.5px 1.5px 2px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.9));
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7));
   padding: 10px 20px 40px 20px;
+  box-shadow: #f2023a 3px 4px 6px;
 }
 
 div.SocialMedia {
@@ -130,6 +132,8 @@ img.IconTwitter{
   width: 130px; margin: 10px; opacity: 0.5;
 }
 img.IconDiscord:hover,img.IconTwitter:hover,img.IconInstagram:hover,img.IconFacebook:hover,img.IconLinkedin:hover {
+  background-color: white;
+  border-radius: 10px;
   opacity: 1;
 }
 
@@ -139,14 +143,23 @@ p.pheader {
   font-size: 30px;
 }
 
-img.RMBoton {width: 300px;}
+img.RMBoton {width: 270px;}
 img.RMBoton:hover {
   width: 320px;
 }
-img.TBoton {width: 300px;}
+img.TBoton {width: 270px;}
 img.TBoton:hover {
   width: 320px;
 }
+img.WBoton {width: 270px;}
+img.WBoton:hover {
+  width: 320px;
+}
+img.TokenBoton {width: 270px;}
+img.TokenBoton:hover {
+  width: 320px;
+}
+
 
 img.Logo-Text-Header {width: 300px;
   margin: 0px 0px 0px -18px;}
@@ -176,7 +189,8 @@ section.Game-Trailer{background-color:none;
   margin: 15px 0px;
   padding: 10px 20px 40px 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
-  url(desierto\ 4.PNG) fixed no-repeat center center;
+  url(desierto\ 2.PNG
+  ) fixed no-repeat center center;
   background-size: cover;
 }
 div.Card-Trailer {
@@ -292,6 +306,7 @@ section.Game-Play{
   padding: 10px 20px 40px 20px;
 
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(torre\ demonio.PNG) fixed no-repeat center center;
+  background-position-y: 20px;
   background-size: cover;
  
   height: 800px;
@@ -311,6 +326,7 @@ div.GP-Text {
   flex-direction: row;
   justify-content: space-between;
   text-shadow: black 2px 1px;
+ 
   font-weight: bolder;
 }
 
@@ -318,14 +334,20 @@ h3.GP-SubTitles  {
   color: white;
   text-align: center;
   margin: 0px 30px 0px 30px;
+  padding: 15px 10px;
   font-size: 45px;
+  height: 300px;
+  line-height: 50px;
+  box-shadow: #f2023a 3px 4px 6px;
   background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.9));
 }
 
 
 span {color:#f2023a}
 
-section.Cofres{background-color:none;
+section.Cofres{
+  height: 100vh;
+  background-color:none;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -333,8 +355,11 @@ section.Cofres{background-color:none;
   align-items: center;
   margin: 15px 0px;
   padding: 10px 20px 40px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(city2.PNG) fixed no-repeat center center;
-  background-size: cover;}
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(WhatsApp\ Image\ 2022-02-05\ at\ 14.27.06.jpeg) fixed no-repeat center center;
+  background-position-y: -20px;
+  background-size: cover;
+  
+}
 h1.Cofres-Title {text-align: center; color: white;font-size: 90px;font-weight: bold;text-shadow: black 6px 4px 3px}
 
 
@@ -344,9 +369,9 @@ section.Team{background-color:none;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 20px 0px;
+  margin: 0px 0px;
   padding: 10px 20px 40px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(torre\ demonio\ 2.PNG) fixed no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(volcan.PNG) fixed no-repeat center center;
   background-size: cover;}
 h1.Team-Title {font-size: 90px;font-weight: bold; text-align: center;text-shadow: black 6px 4px 3px}
 
@@ -363,6 +388,7 @@ div.Card-Team-Joaquin {
   display: grid;
   justify-content: space-evenly;
   box-shadow: black 8px 8px 8px;
+  
   background-image: url(./CardsQBackground.png);
   background-size: 210%;
   background-position: center center;
@@ -375,8 +401,8 @@ div.Card-Team-Joaquin {
 
 
 
-.pNameTeam {font-size: 35px; font-weight: bolder;color: white;}
-.pRolTeam {font-size: 25px;font-weight:lighter;color: white;}
+.pNameTeam {font-size: 35px; font-weight: bolder;color: white;margin-top: 10px;}
+.pRolTeam {font-size: 25px;font-weight:lighter;color: white;margin-top: -10px;}
 div.SocialMediaTeam
 {
   display: flex;
@@ -387,18 +413,29 @@ div.SocialMediaTeam
 
   padding: 10px 0px 20px 0px;
   width: 100%;
+  margin-top: -20px;
 
 }
-
+img.IconLinkedinTeam, img.IconInstagramTeam {
+  width: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+img.IconLinkedinTeam:hover, img.IconInstagramTeam:hover{
+  background-color: white;
+  border-radius: 10px;
+}
 
 img.Perfil-Joaquin {
-  margin: 40px 0 0 0;
+  margin: 25px 0 0 0;
   width: 240px;
   
 }
-img.Perfil-Joaquin:hover {
-  box-shadow: black 8px 5px 5px;
+div.Card-Team-Joaquin:hover {
+  box-shadow: #f2023a 8px 8px 8px;
+
 }
+
 
 div.Card-Team-Christian {
   width: 25%;
@@ -417,12 +454,14 @@ div.Card-Team-Christian {
   margin: 10px 10px 10px 10px;
  }
 img.Perfil-Christian {
-  margin: 40px 0 0 0;
-  width: 220px;
+  margin: 25px 0 0 0;
+  width: 200px;
 }
-img.Perfil-Christian:hover {
-  box-shadow: black 8px 5px 5px;
+div.Card-Team-Christian:hover {
+  box-shadow: #f2023a 8px 8px 8px;
+
 }
+
 
 div.Card-Team-Aitor {
   width: 25%;
@@ -440,12 +479,14 @@ div.Card-Team-Aitor {
   margin: 10px 10px 10px 10px;
  }
 img.Perfil-Aitor {
-  margin: 40px 0 0 0;
+  margin: 25px 0 0 0;
   width: 220px;
 }
-img.Perfil-Aitor:hover {
-  box-shadow: black 8px 5px 5px;
+div.Card-Team-Aitor:hover {
+  box-shadow: #f2023a 8px 8px 8px;
+
 }
+
 div.Card-Team-Matias {
   width: 25%;
   box-sizing: content-box;
@@ -463,13 +504,13 @@ div.Card-Team-Matias {
   margin: 10px 10px 10px 10px;
  }
 img.Perfil-Matias {
-  margin: 40px 0 0 0;
+  margin: 25px 0 0 0;
   width: 220px; 
 }
-img.Perfil-Matias:hover {
-  box-shadow: black 8px 5px 5px;
-}
+div.Card-Team-Matias:hover {
+  box-shadow: #f2023a 8px 8px 8px;
 
+}
 section.Road-Map{
   background-color:none;
   display: flex;
@@ -477,7 +518,7 @@ section.Road-Map{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 20px 0px;
+  margin: 0px 0px;
   padding: 10px 20px 40px 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(volcan.PNG) fixed no-repeat center center;
   background-size: cover;
@@ -581,7 +622,7 @@ div.Card-Q4 {
   background-color: white;
   text-align: start;
   margin: 10px 10px 10px 10px;
-  padding: 10px 5px 0px 20px;
+  padding: 10px 5px 0px 40px;
   background-image: url("./CardsQBackground.png");
   background-size: 130%;
   background-position-x: -25px;
@@ -596,11 +637,16 @@ div.Card-Q5 {
   background-color: white;
   text-align: start;
   margin: 10px 10px 10px 10px;
-  padding: 10px 5px 0px 20px;
+  padding: 10px 5px 0px 40px;
   background-image: url("./CardsQBackground.png");
   background-size: 130%;
   background-position-x: -25px;
   background-position-y: -25px;
+}
+
+div.Card-Q1:hover,div.Card-Q2:hover,div.Card-Q3:hover,div.Card-Q4:hover,div.Card-Q5:hover{
+
+  box-shadow: #f2023a 8px 8px 8px;
 }
 
 
@@ -627,6 +673,28 @@ a.Privacidad{
 a.Privacidad:hover,a.Terminos-y-Condiciones:hover {
   color: black;
 }
+
+img.IconLinkedinFooter,img.IconFacebookFooter,img.IconInstagramFooter{
+
+  width: 50px;
+
+}
+img.IconTwitterFooter,img.IconDiscordFooter{
+  width: 85px;
+
+
+}
+
+img.IconLinkedinFooter:hover,img.IconFacebookFooter:hover,img.IconInstagramFooter:hover,img.IconTwitterFooter:hover,img.IconDiscordFooter:hover
+{
+
+  background-color: white;
+  border-radius: 10px;
+
+
+
+}
+
 
 
 code {

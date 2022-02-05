@@ -1,5 +1,7 @@
 import React from 'react';
 import PerfilMatias from "../PerfilMatias.jpg";
+import IconInstagram from "../IconInstagram.png";
+import IconLinkedin from "../IconLinkedin.png";
 
 function CardTeamMatias() {
     return ( 
@@ -12,9 +14,14 @@ function CardTeamMatias() {
 
     </p>
     <p className='pRolTeam'>
-    CONTENIDO<br/> 
+     
     AUDIO-VISUAL
     </p>
+    <div className='SocialMediaTeam'>
+            <a href='#' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
+
+            <a href='#' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
+    </div>
 
 
 

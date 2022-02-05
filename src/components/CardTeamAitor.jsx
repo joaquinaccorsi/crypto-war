@@ -1,5 +1,7 @@
 import React from 'react';
 import PerfilAitor from "../PerfilAitor.jpg";
+import IconInstagram from "../IconInstagram.png";
+import IconLinkedin from "../IconLinkedin.png";
 
 function CardTeamAitor() {
     return ( 
@@ -14,6 +16,11 @@ function CardTeamAitor() {
     <p className='pRolTeam'>
     MARKETING
     </p>
+    <div className='SocialMediaTeam'>
+            <a href='#' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
+
+            <a href='#' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
+    </div>
 
 
 
