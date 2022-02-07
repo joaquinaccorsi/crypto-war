@@ -17,9 +17,9 @@ function CardTeamJoaquin() {
     </p>
 
     <div className='SocialMediaTeam'>
-            <a href='#' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
+            <a href='https://www.instagram.com/joaquinaccorsi' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
 
-            <a href='#' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
+            <a href='https://www.linkedin.com/in/joaquinaccorsi/' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
     </div>
 
 

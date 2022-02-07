@@ -4,6 +4,7 @@ import IconDiscord from "../IconDiscord.png";
 import IconFacebook from "../IconFacebook.png";
 import IconTwitter from "../IconTwitter.png";
 import IconLinkedin from "../IconLinkedin.png";
+import IconTelegram from "../telegrama.png";
 
 function Footer() {
     return (
@@ -17,7 +18,7 @@ function Footer() {
             <a href='https://www.facebook.com/CryptoWar-100465312564842'target="_blank"><img src= {IconFacebook}className='IconFacebookFooter'/></a>
             <a href='https://twitter.com/CryptoWar_CW'target="_blank"><img src= {IconTwitter} className='IconTwitterFooter'/></a>
             <a href='https://www.linkedin.com/company/crypto-war'target="_blank"><img src={IconLinkedin} className='IconLinkedinFooter'/></a>
-
+            <a href='https://t.me/CryptoWarOficial'target="_blank"><img src={IconTelegram} className='IconTelegramFooter'/></a>
             <a className='Privacidad'>Privacidad</a> 
 
         </footer>

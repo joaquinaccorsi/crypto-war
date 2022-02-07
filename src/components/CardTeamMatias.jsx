@@ -18,9 +18,9 @@ function CardTeamMatias() {
     AUDIO-VISUAL
     </p>
     <div className='SocialMediaTeam'>
-            <a href='#' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
+            <a href='https://www.instagram.com/matiandreu' target="_blank"><img src= {IconInstagram} className='IconInstagramTeam'/></a>
 
-            <a href='#' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
+            <a href='https://www.linkedin.com/in/matiasandreu/' target="_blank"><img src={IconLinkedin} className='IconLinkedinTeam'/></a>
     </div>
 
 

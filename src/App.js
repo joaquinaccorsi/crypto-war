@@ -1,6 +1,7 @@
 import './App.css';
 
 
+
 import DragonAzul from "./dragon azul.png";
 import Imperios from "./imperios.png";
 import Guerreros from "./Guerreros.png";
@@ -24,6 +25,7 @@ import CardQ5 from "./components/CardQ5";
 import Header from './components/Header';
 
 
+
 import Navbar from './components/Navbar';
 
 import Footer from "./components/Footer";
@@ -38,8 +40,8 @@ import Footer from "./components/Footer";
 
 
 
-let classNames= require ("classnames");
-classNames ("foo","bar");
+
+
 
 
 function App() {
@@ -51,6 +53,9 @@ function App() {
       <Navbar/>
 
       <Header/>
+
+
+ 
 
 
       <section className='Game-Trailer'>

@@ -8,7 +8,7 @@ function CardTrailer() {
      <h3 className='Title-Card-Trailer'>TRAILER OFICIAL <img src={logofull} className='Game-Trailer-Logo'alt='logofull'/></h3>
     </div>
     <div className='card-body'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DaKqP_HBp2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className='TrailerYT'>       </iframe>
+      <h1 className="EnProceso">en proceso...</h1>
     </div>
 </div>
  );

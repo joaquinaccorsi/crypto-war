@@ -131,7 +131,8 @@ img.IconDiscord{
 img.IconTwitter{
   width: 130px; margin: 10px; opacity: 0.5;
 }
-img.IconDiscord:hover,img.IconTwitter:hover,img.IconInstagram:hover,img.IconFacebook:hover,img.IconLinkedin:hover {
+img.IconTelegram {width: 80px; margin: 10px; opacity: 0.5;}
+img.IconDiscord:hover,img.IconTwitter:hover,img.IconInstagram:hover,img.IconFacebook:hover,img.IconLinkedin:hover,img.IconTelegram:hover {
   background-color: white;
   border-radius: 10px;
   opacity: 1;
@@ -203,8 +204,12 @@ div.Card-Trailer {
   background-image: url(CardsQBackground.png);
   background-size: 120%;
   background-position: center center;
+
   
   
+}
+div.Card-Trailer:hover {
+  box-shadow: #f2023a 3px 4px 6px;
 }
 h1.Game-Trailer-Title {
   display: grid;
@@ -215,7 +220,12 @@ h1.Game-Trailer-Title {
   margin-right: 30px;
   text-shadow: black 6px 4px 3px
 }
-
+h1.EnProceso{
+  font-size: 40px;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
 img.Game-Trailer-Logo {
   width: 280px;
 
@@ -674,7 +684,7 @@ a.Privacidad:hover,a.Terminos-y-Condiciones:hover {
   color: black;
 }
 
-img.IconLinkedinFooter,img.IconFacebookFooter,img.IconInstagramFooter{
+img.IconLinkedinFooter,img.IconFacebookFooter,img.IconInstagramFooter,img.IconTelegramFooter{
 
   width: 50px;
 
@@ -685,7 +695,7 @@ img.IconTwitterFooter,img.IconDiscordFooter{
 
 }
 
-img.IconLinkedinFooter:hover,img.IconFacebookFooter:hover,img.IconInstagramFooter:hover,img.IconTwitterFooter:hover,img.IconDiscordFooter:hover
+img.IconLinkedinFooter:hover,img.IconFacebookFooter:hover,img.IconInstagramFooter:hover,img.IconTwitterFooter:hover,img.IconDiscordFooter:hover,img.IconTelegramFooter:hover
 {
 
   background-color: white;

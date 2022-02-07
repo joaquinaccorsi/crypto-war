@@ -13,7 +13,7 @@ function Navbar() {
     <a href="Inicio" ><img src={HOMEBOTON} className="BotonHome" alt="botonhome"/></a>
     
     <nav className='menu'>
-     <a href='https://drive.google.com/drive/folders/1YjydiJQq8fvbN4N0a-wfUDJ7gqPSaSuJ?usp=sharing' className='InicioSesion' target="_blank"> descargar</a>
+     <a href='https://drive.google.com/drive/folders/1YjydiJQq8fvbN4N0a-wfUDJ7gqPSaSuJ?usp=sharing' className='InicioSesion' target="_blank"> descargar Crypto War Client</a>
      <a href='#'><img src={BotonRegistro} className='BotonRegistro' alt="botonregistro"/></a>         
     </nav>
     
