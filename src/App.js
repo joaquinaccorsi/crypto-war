@@ -11,6 +11,8 @@ import CardTrailer from './components/CardTrailer';
 
 import CardStory from './components/CardStory';
 
+import CardCofres from './components/CardCofres';
+
 import CardTeamJoaquin from './components/CardTeamJoaquin';
 import CardTeamChristian from "./components/CardTeamChristian";
 import CardTeamAitor from "./components/CardTeamAitor";
@@ -31,6 +33,7 @@ import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
 
 import SocialMedia from './components/SocialMedia';
+
 
 
 
@@ -121,7 +124,7 @@ function App() {
 
         <div className='RecursosCofres'>
         <img src={Guerreros} className='Guerrera'alt="guerrera"/>
-        
+        <CardCofres/>
         <img src={Ninjas} className='Ninja'alt="ninja"/>
         </div>
 
