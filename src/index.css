@@ -21,6 +21,13 @@ div#root {
 
 div.App{background-color: none;text-align: unset;}
 
+
+.not-active {
+  pointer-events: none; 
+  cursor: default; 
+}
+
+
 navbar.NavBar {color: withe;
   width: 100%;
   height: 80px;
@@ -51,7 +58,7 @@ img.BotonRegistro:hover {
 
 .Inicio {
   background-color:none;
-  height: 120vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,11 +66,12 @@ img.BotonRegistro:hover {
   font-size: calc(10px + 2vmin);
   color: white;
   scroll-behavior: smooth;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
+  background:
   url(torre\ demonio\ 3.PNG) fixed no-repeat ;
   background-position-y: 15px;
   background-size: cover;
   padding: 10px 20px 40px 20px;
+  margin-bottom: 15px;
 
 }
 img.BotonHome {
@@ -84,7 +92,7 @@ img.BotonHome:hover {
 h1.Header-Title {
   font-size: 70px;
   margin-top: 0rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   font-weight: bolder;
   text-align: center;
   text-shadow: black 6px 4px 3px;
@@ -106,6 +114,7 @@ div.SocialMedia {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  background:linear-gradient(rgba(242, 2, 58, .1),rgba(242, 2, 58, 1),rgba(242, 2, 58, .1));
 
   padding: 10px 0px 20px 0px;
   width: 100%;
@@ -113,7 +122,10 @@ div.SocialMedia {
 
 h1.SocialMedia-Title {
   font-size: 40px;
-  text-shadow: black 2.5px 1.5px 2px;
+  text-shadow: black 3.2px 2.2px 2.2px;
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 img.IconInstagram {
@@ -133,8 +145,7 @@ img.IconTwitter{
 }
 img.IconTelegram {width: 80px; margin: 10px; opacity: 0.5;}
 img.IconDiscord:hover,img.IconTwitter:hover,img.IconInstagram:hover,img.IconFacebook:hover,img.IconLinkedin:hover,img.IconTelegram:hover {
-  background-color: white;
-  border-radius: 10px;
+
   opacity: 1;
 }
 
@@ -144,19 +155,19 @@ p.pheader {
   font-size: 30px;
 }
 
-img.RMBoton {width: 270px;}
+img.RMBoton {width: 270px; margin-bottom: 30px;}
 img.RMBoton:hover {
   width: 320px;
 }
-img.TBoton {width: 270px;}
+img.TBoton {width: 270px;margin-bottom: 30px;}
 img.TBoton:hover {
   width: 320px;
 }
-img.WBoton {width: 270px;}
+img.WBoton {width: 270px;margin-bottom: 30px;}
 img.WBoton:hover {
   width: 320px;
 }
-img.TokenBoton {width: 270px;}
+img.TokenBoton {width: 270px;margin-bottom: 30px;}
 img.TokenBoton:hover {
   width: 320px;
 }
@@ -336,6 +347,8 @@ div.GP-Text {
   flex-direction: row;
   justify-content: space-between;
   text-shadow: black 2px 1px;
+  margin: 20px 20px;
+
  
   font-weight: bolder;
 }
@@ -343,13 +356,13 @@ div.GP-Text {
 h3.GP-SubTitles  {
   color: white;
   text-align: center;
-  margin: 0px 30px 0px 30px;
-  padding: 15px 10px;
+  margin: 0px 20px 0px 20px;
+  padding: 35px 40px;
   font-size: 45px;
-  height: 300px;
+  height: 450px;
   line-height: 50px;
   box-shadow: #f2023a 3px 4px 6px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.9));
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.6));
 }
 
 
@@ -400,7 +413,7 @@ div.Card-Team-Joaquin {
   box-shadow: black 8px 8px 8px;
   
   background-image: url(./CardsQBackground.png);
-  background-size: 210%;
+  background-size: 250%;
   background-position: center center;
   align-content: center;
   align-items: center;
@@ -455,7 +468,7 @@ div.Card-Team-Christian {
   box-shadow: black 8px 8px 8px;
   
   background-image: url(./CardsQBackground.png);
-  background-size: 210%;
+  background-size: 250%;
   background-position: center center;
   align-content: center;
 
@@ -480,7 +493,7 @@ div.Card-Team-Aitor {
   justify-content: space-evenly;
   box-shadow: black 8px 8px 8px;
   background-image: url(./CardsQBackground.png);
-  background-size: 210%;
+  background-size: 250%;
   background-position: center center;
   
   align-content: center;
@@ -504,7 +517,7 @@ div.Card-Team-Matias {
   justify-content: space-evenly;
   box-shadow: black 8px 8px 8px;
   background-image: url(./CardsQBackground.png);
-  background-size: 210%;
+  background-size: 250%;
   background-position: center center;
  
   align-content: center;
@@ -587,9 +600,8 @@ div.Card-Q1 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
-  background-size: 120%;
-  background-position-x: -50px;
-  background-position-y: -23px;
+  background-size: 250%;
+background-position: center center;
 
 
 }
@@ -604,9 +616,8 @@ div.Card-Q2 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
-  background-size: 120%;
-  background-position-x: -50px;
-  background-position-y: -49px;
+  background-size: 250%;
+  background-position: center center;
 }
 div.Card-Q3 {
   width: 30%;
@@ -619,9 +630,8 @@ div.Card-Q3 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 20px;
   background-image: url("./CardsQBackground.png");
-  background-size: 120%;
-  background-position-x: -50px;
-  background-position-y: -49px;
+  background-size: 250%;
+  background-position: center center;
 }
 div.Card-Q4 {
   width: 33%;
@@ -634,9 +644,8 @@ div.Card-Q4 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 40px;
   background-image: url("./CardsQBackground.png");
-  background-size: 130%;
-  background-position-x: -25px;
-  background-position-y: -25px;
+  background-size: 250%;
+  background-position: center center;
 }
 div.Card-Q5 {
   width: 33%;
@@ -649,9 +658,8 @@ div.Card-Q5 {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 0px 40px;
   background-image: url("./CardsQBackground.png");
-  background-size: 130%;
-  background-position-x: -25px;
-  background-position-y: -25px;
+  background-size: 250%;
+  background-position: center center;
 }
 
 div.Card-Q1:hover,div.Card-Q2:hover,div.Card-Q3:hover,div.Card-Q4:hover,div.Card-Q5:hover{

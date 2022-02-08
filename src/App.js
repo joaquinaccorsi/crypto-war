@@ -30,6 +30,7 @@ import Navbar from './components/Navbar';
 
 import Footer from "./components/Footer";
 
+import SocialMedia from './components/SocialMedia';
 
 
 
@@ -53,6 +54,8 @@ function App() {
       <Navbar/>
 
       <Header/>
+
+      <SocialMedia/>
 
 
  
@@ -85,9 +88,9 @@ function App() {
 
         <div className='GP-Text'>
           <h3 className="GP-SubTitles">
-           <span>JUEGO NFT</span><br/>
-           PLAY-<span>TO</span>-EARN<br/>
-           MMO<br/>
+           <span>JUEGO NFT</span><br/><br/>
+           PLAY<br/><span>TO</span><br/>EARN<br/><br/>
+           MMO 
            <span>RPG</span>
           </h3>
 
@@ -95,7 +98,7 @@ function App() {
           <h3 className="GP-SubTitles">
             <span>PvP</span><br/><br/>
             PvM<br/><br/>
-            EVENTOS <span>MIXTOS</span>
+            EVENTOS <br/><span>MIXTOS</span>
           </h3>
 
           <h3 className="GP-SubTitles">
@@ -103,7 +106,7 @@ function App() {
            <span>MISIONES
            DIARIAS<br/></span>
            PARA GANAR<br/>
-           TUS <span>RECOMPENSAS</span>
+           TUS <br/><span>RECOMPENSAS</span>
           </h3>
           </div>
 

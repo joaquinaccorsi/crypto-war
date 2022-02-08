@@ -57,23 +57,12 @@ function Header() {
 
         <div className='BotonesHeader'>
 
-          <a href='#'><img src={TOKENBOTON} className='TokenBoton'/></a>
+          <a href='#' className='not-active'><img src={TOKENBOTON} className='TokenBoton'/></a>
           <a href='#Team'><img src={TBOTON} className='TBoton'alt="botonteam"/></a>
           <a href='#Road-Map'><img src={RMBOTON} className='RMBoton'alt="botonroadmap"/></a>
-          <a href='#'><img src={WBOTON} className='WBoton'/></a>
+          <a href='#'className='not-active'><img src={WBOTON} className='WBoton'/></a>
    
 
-        </div>
-        <h1 className='SocialMedia-Title'>
-            ¡SUMATE A LA COMUNIDAD!
-        </h1>
-        <div className='SocialMedia'>
-            <a href='https://www.instagram.com/cryptowaroficial/' target="_blank"><img src= {IconInstagram} className='IconInstagram'/></a>
-            <a href='https://discord.gg/s8uD7a6PyM'target="_blank"><img src= {IconDiscord} className='IconDiscord'/></a>
-            <a href='https://www.facebook.com/CryptoWar-100465312564842'target="_blank"><img src= {IconFacebook}className='IconFacebook'/></a>
-            <a href='https://twitter.com/CryptoWar_CW'target="_blank"><img src= {IconTwitter} className='IconTwitter'/></a>
-            <a href='https://www.linkedin.com/company/crypto-war'target="_blank"><img src={IconLinkedin} className='IconLinkedin'/></a>
-            <a href='https://t.me/CryptoWarOficial'target="_blank"><img src={IconTelegram} className='IconTelegram'/></a>
         </div>
 
 
