@@ -6,12 +6,7 @@ import RMBOTON from "../RMBOTON.png";
 import TBOTON from "../TBoton.png";
 import WBOTON from "../WBOTON.png"
 import TOKENBOTON from "../TOKENBOTON.png"
-import IconInstagram from "../IconInstagram.png";
-import IconDiscord from "../IconDiscord.png";
-import IconFacebook from "../IconFacebook.png";
-import IconTwitter from "../IconTwitter.png";
-import IconLinkedin from "../IconLinkedin.png";
-import IconTelegram from "../telegrama.png";
+
 
 
 
