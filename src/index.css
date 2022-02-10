@@ -372,7 +372,7 @@ section.Cofres{
   height: 100vh;
   background-color:none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
