@@ -820,7 +820,8 @@ code {
   color: white;
   text-decoration: none;
   font-size: 30px;
-  margin-left: 20px;
+  font-weight: lighter;
+
   
 }
 .Atrás:hover {

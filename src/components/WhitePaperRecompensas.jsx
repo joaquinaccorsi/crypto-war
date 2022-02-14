@@ -9,7 +9,7 @@ import IconTelegram from "../telegrama.png";
 
 
 
-function WhitePaperApp (){
+function WhitePaperRecompensas (){
   return    (
 
 
@@ -36,7 +36,7 @@ function WhitePaperApp (){
       <div className="NavBarWhitePaper"> 
     
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">TOKENOMICS</a>
-        <a href="/WhitePaper/Recompensas" className="LinkRecompensas">RECOMPENSAS</a>
+        <a href="/WhitePaper/Recompensas" className="LinkRecompensas"><span>RECOMPENSAS</span></a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">xxxxxx</a>
         <a href="/WhitePaper/Recompensas" className="LinkRecompensas">xxxxxx</a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">xxxxxx</a>
@@ -51,4 +51,4 @@ function WhitePaperApp (){
   );
 }
 
-export default WhitePaperApp;
+export default WhitePaperRecompensas;

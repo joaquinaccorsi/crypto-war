@@ -7,6 +7,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import WhitePaperRecompensas from './components/WhitePaperRecompensas';
+import WhitePaperTokenomics from './components/WhitePaperTokenomics';
 
 
 
@@ -25,8 +27,8 @@ ReactDOM.render(
 
  
         <Route path='/WhitePaper/*' element={<WhitePaperApp/>}/>
-        <Route path='/WhitePaper/Recompensas' element={<h1>RECOMPENSAS</h1>}/>
-        <Route path='/WhitePaper/Tokenomics' element={<h1>TOKENOMICS</h1>}/>
+        <Route path='/WhitePaper/Recompensas' element={<WhitePaperRecompensas/>}/>
+        <Route path='/WhitePaper/Tokenomics' element={<WhitePaperTokenomics/>}/>
 
 
       </Routes>
