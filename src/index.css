@@ -48,7 +48,7 @@ a.InicioSesion {
 }
 a.InicioSesion:hover {
   font-size: 25px;
-  color: #f2023a;
+  color:#d06863;
 }
 
 img.BotonRegistro {width: 200px;}
@@ -812,47 +812,37 @@ code {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: stretch;
   justify-content: space-around;
   background:linear-gradient(rgba(242,3,59,1),rgba(0, 0, 0, 1));
 }
 .Atrás{
   color: white;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 30px;
+  margin-left: 20px;
+  
 }
 .Atrás:hover {
-  color: #f2023a;
+  color:#d06863;
 }
 .LogoWP{
   width: 450px;
   margin-top: 10px;
   
 }
-div.SocialMediaWP {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+.aWP {
+  display: block;
+}
 
+img.IconInstagramWP,img.IconFacebookWP,img.IconLinkedinWP,img.IconTelegramWP {
+  width: 55px; margin: 10px; opacity: 0.5; margin-bottom: 65px;
 }
-img.IconInstagramWP {
-  width: 55px; margin: 10px; opacity: 0.5;
+
+img.IconDiscordWP,img.IconTwitterWP{
+  width: 90px; margin: 10px; opacity: 0.5; margin-bottom: 65px;
 }
-img.IconFacebookWP{
-  width: 55px; margin: 10px; opacity: 0.5;
-}
-img.IconLinkedinWP{
-  width: 55px; margin: 10px; opacity: 0.5;
-}
-img.IconDiscordWP{
-  width: 90px; margin: 10px; opacity: 0.5;
-}
-img.IconTwitterWP{
-  width: 90px; margin: 10px; opacity: 0.5;
-}
-img.IconTelegramWP {width: 55px; margin: 10px; opacity: 0.5;}
+
 img.IconDiscordWP:hover,img.IconTwitterWP:hover,img.IconInstagramWP:hover,img.IconFacebookWP:hover,img.IconLinkedinWP:hover,img.IconTelegramWP:hover {
 
   opacity: 1;
@@ -869,5 +859,7 @@ img.IconDiscordWP:hover,img.IconTwitterWP:hover,img.IconInstagramWP:hover,img.Ic
   
   
 }
-
+.LinkRecompensas:hover,.LinkTokenomics:hover {
+  color: #d06863;
+}
 
