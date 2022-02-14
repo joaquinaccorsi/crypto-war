@@ -802,6 +802,7 @@ code {
   background-color: white;
   text-align: center;
   align-content: space-around;
+  background:linear-gradient(rgba(0, 0, 0, 1),rgba(242,3,59,1));
   
   
 }
@@ -861,7 +862,7 @@ img.IconDiscordWP:hover,img.IconTwitterWP:hover,img.IconInstagramWP:hover,img.Ic
 .LinkRecompensas,.LinkTokenomics{
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
   text-align: center;
   font-weight: 600;
   
