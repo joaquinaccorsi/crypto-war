@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import WhitePaperApp from './components/WhitePaperApp';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 
 
@@ -11,10 +14,33 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <BrowserRouter>    
+    
+  
+      
+      <Routes>
+
+        <Route path ="/" element={<App/>}/>
+         
+
+ 
+        <Route path='/WhitePaper/*' element={<WhitePaperApp/>}/>
+        <Route path='/WhitePaper/Recompensas' element={<h1>RECOMPENSAS</h1>}/>
+        <Route path='/WhitePaper/Tokenomics' element={<h1>TOKENOMICS</h1>}/>
+
+
+      </Routes>
+    
+  
+ 
+
+  </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+
 
 
 

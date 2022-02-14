@@ -1,6 +1,8 @@
 import React from 'react';
 import logofull from "../LogoCWFull.png";
-import videotrailer from "../Crypto-War-Trailer.mp4"
+import videotrailer from "../Crypto-War-Trailer.mp4";
+
+
 
 import RMBOTON from "../RMBOTON.png";
 import TBOTON from "../TBoton.png";
@@ -55,7 +57,7 @@ function Header() {
           <a href='#' className='not-active'><img src={TOKENBOTON} className='TokenBoton'/></a>
           <a href='#Team'><img src={TBOTON} className='TBoton'alt="botonteam"/></a>
           <a href='#Road-Map'><img src={RMBOTON} className='RMBoton'alt="botonroadmap"/></a>
-          <a href='#'className='not-active'><img src={WBOTON} className='WBoton'/></a>
+          <a href="/WhitePaper"><img src={WBOTON} className='WBoton'/></a>
    
 
         </div>

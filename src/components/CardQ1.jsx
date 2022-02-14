@@ -14,7 +14,7 @@ function CardQ1() {
         -Lanzamiento Landing Page<br/>
         -Marketing/Youtubers/Influencers<br/>
         -Donaciones<br/>
-        -Partner<br/>
+        -Preventa Inversores<br/>
          
     </p>
 
