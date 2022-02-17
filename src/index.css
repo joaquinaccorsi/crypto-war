@@ -789,13 +789,15 @@ code {
   font-family:playfair-display;
   font-weight: bolder;
   text-align: center;
-  color: #f2023a;
+  
   font-size: 230px;
   height: 100vh;
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
   align-items: flex-start;
+  background:radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+  
 }
 
 .NavBarWhitePaper{
@@ -816,6 +818,7 @@ code {
   
 }
 .TituloWP{
+ 
 
   height: 150px;
   display: flex;
@@ -826,6 +829,7 @@ code {
   background:linear-gradient(rgba(242,3,59,1),rgba(0, 0, 0, 1));
 }
 .Atrás{
+  
   color: white;
   text-decoration: none;
   font-size: 30px;
@@ -838,11 +842,13 @@ code {
   color:#d06863;
 }
 .LogoWP{
+  
   width: 450px;
   margin-top: 10px;
   
 }
 .aWP {
+  
   display: block;
 }
 
@@ -877,3 +883,38 @@ img.IconDiscordWP:hover,img.IconTwitterWP:hover,img.IconInstagramWP:hover,img.Ic
   color: #d06863;
 }
 
+.WhitePaperContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+  align-content: space-around;
+  width: 600px;
+  float: right;
+  right: 550px;
+  margin: 20px;
+  line-height: 60px;
+
+}
+
+.WhitePaperContentTitle
+{
+font-size: 80px;
+font-weight: bold;
+color: #f2023a;
+}
+
+.WhitePaperContentText 
+{
+
+  font-weight: lighter;
+  font-size: 30px;
+  color: white;
+  margin-top: 50px;
+  
+
+}

@@ -62,7 +62,13 @@ function WhitePaperApp (){
 
         </h1>
         <p className="WhitePaperContentText">
-          PROBANDO
+        CryptoWar es un juego <strong>NFT MMORPG Play-To-Earn</strong> a mundo abierto
+        en el que los jugadores pueden interactuar entre ellos, hacer amigos, formar gremios, levear juntos y competir !
+        <br/>
+        <br/>
+         CryptoWar <strong>NO</strong> es un click-to-earn!!!<br/>
+          El juego esta diseñado para que los jugadores participen, se diviertan, compitan y ganen dinero.<br/>
+         Por eso decidimos escoger la jugabilidad de un MMORPG!
         </p>
       </div>
 

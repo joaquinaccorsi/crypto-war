@@ -53,6 +53,22 @@ function WhitePaperInfoToken (){
         <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos">Planes futuros</a>
 
       </div>
+      <div className="WhitePaperContent">
+        <h1 className="WhitePaperContentTitle">
+
+          INFO TOKEN
+
+        </h1>
+        <p className="WhitePaperContentText">
+        <strong>NOMBRE</strong>: CryptoWar<br/>
+        <strong>SIMBOLO</strong>: CW<br/>
+        <strong>DECIMALES</strong>: 18<br/>
+        <strong>RED</strong>: Binance Smart Chain (BSC)<br/>
+        <strong>TOTAL SUPPLY</strong>: 10.000.000<br/>
+        <strong>DIRECCION DEL CONTRATO</strong>: 0xE46f0E71eB0dDA34B15Ee818a0629CE92677b0EE<br/>
+        <strong>DIRECCION DEL CREADOR</strong>: 0x4400F1734542EBfDe4E54C632c71897c3358FbeE
+        </p>
+      </div>
 
     </div>
 
