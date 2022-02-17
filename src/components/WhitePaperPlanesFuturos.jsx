@@ -9,7 +9,7 @@ import IconTelegram from "../telegrama.png";
 
 
 
-function WhitePaperApp (){
+function WhitePaperPlanesFuturos (){
   return    (
 
 
@@ -35,7 +35,7 @@ function WhitePaperApp (){
 
       <div className="NavBarWhitePaper"> 
     
-        <a href="/WhitePaper"  className="LinkCryptoWar"><span>Crypto War</span></a>
+        <a href="/WhitePaper"  className="LinkCryptoWar">Crypto War</a>
         <a href="/WhitePaper/InfoToken" className="LinkInfoToken">Info Token</a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">Tokenomic</a>
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
@@ -50,20 +50,10 @@ function WhitePaperApp (){
         <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
         <a href="/WhitePaper/Oraculo" className="LinkOraculo">Oraculo</a>
         <a href="/WhitePaper/Educacion" className="LinkEducacion">Educación</a>
-        <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos">Planes futuros</a>
+        <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos"><span>Planes futuros</span></a>
 
 
 
-      </div>
-      <div className="WhitePaperContent">
-        <h1 className="WhitePaperContentTitle">
-
-          CRYPTO WAR
-
-        </h1>
-        <p className="WhitePaperContentText">
-          PROBANDO
-        </p>
       </div>
 
     </div>
@@ -73,4 +63,4 @@ function WhitePaperApp (){
   );
 }
 
-export default WhitePaperApp;
+export default WhitePaperPlanesFuturos;
