@@ -34,13 +34,22 @@ function WhitePaperTokenomics (){
       </div>
 
       <div className="NavBarWhitePaper"> 
-    
-        <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics"><span>TOKENOMICS</span></a>
-        <a href="/WhitePaper/Recompensas" className="LinkRecompensas">RECOMPENSAS</a>
-        <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">xxxxxx</a>
-        <a href="/WhitePaper/Recompensas" className="LinkRecompensas">xxxxxx</a>
-        <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">xxxxxx</a>
-        <a href="/WhitePaper/Recompensas" className="LinkRecompensas">xxxxxx</a>
+      <a href="/WhitePaper"  className="LinkCryptoWar">Crypto War</a>
+        <a href="/WhitePaper/InfoToken" className="LinkInfoToken">Info Token</a>
+        <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics"><span>Tokenomic</span></a>
+        <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
+        <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM">Recompensas PVM</a>
+        <a href="/WhitePaper/Cofres" className="LinkCofres">Cofres</a>
+        <a href="/WhitePaper/NFTs" className="LinkNFTs">NFTs</a>
+        <a href="/WhitePaper/Eventos" className="LinkEventos">Eventos</a>
+        <a href="/WhitePaper/EventosMixtos" className="LinkEventosMixtos">Eventos Mixtos</a>
+        <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP">Eventos PVP</a>
+        <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT">Quema NFT</a>
+        <a href="/WhitePaper/Claim" className="LinkClaim">Claim</a>
+        <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
+        <a href="/WhitePaper/Oraculo" className="LinkOraculo">Oraculo</a>
+        <a href="/WhitePaper/Educacion" className="LinkEducacion">Educación</a>
+        <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos">Planes futuros</a>
 
       </div>
 

@@ -1,7 +1,15 @@
+@font-face {
+  font-family: PlayFair-Display;
+  src: 
+  local("playfair-display"),
+ 
+}
+
+
 body {
  
   margin: 0;
-  font-family: playfair-display;
+  font-family: PlayFair-Display;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -803,6 +811,7 @@ code {
   text-align: center;
   align-content: space-around;
   background:linear-gradient(rgba(0, 0, 0, 1),rgba(242,3,59,1));
+  padding: 0 0 160px 0;
   
   
 }
@@ -821,6 +830,7 @@ code {
   text-decoration: none;
   font-size: 30px;
   font-weight: lighter;
+  margin: 0px 0px 10px 0;
 
   
 }
@@ -850,17 +860,20 @@ img.IconDiscordWP:hover,img.IconTwitterWP:hover,img.IconInstagramWP:hover,img.Ic
 }
 
 
-.LinkRecompensas,.LinkTokenomics{
-  font-size: 20px;
+.LinkRecompensas,.LinkTokenomics,.LinkCryptoWar,.LinkInfoToken,.LinkGamePlayW,.LinkRecompensasPVM,.LinkCofres,.LinkNFTs,.LinkEventos,.LinkEventosMixtos,.LinkEventosPVP,.LinkQuemaNFT,.LinkClaim,.LinkMarketPlace,.LinkOraculo,.LinkEducacion,.LinkPlanesFuturos{
+  font-size: 15px;
   text-decoration: none;
   color: white;
   text-align: center;
   font-weight: 600;
-  
+  padding-top: 5px;
+  margin: 0 10px 0 10px;
+  border-bottom: dotted 0.1px white;
+  font-family: fairplay-display;
   
   
 }
-.LinkRecompensas:hover,.LinkTokenomics:hover {
+.LinkTokenomics:hover,.LinkCryptoWar:hover,.LinkInfoToken:hover,.LinkGamePlayW:hover,.LinkRecompensasPVM:hover,.LinkCofres:hover,.LinkNFTs:hover,.LinkEventos:hover,.LinkEventosMixtos:hover,.LinkEventosPVP:hover,.LinkQuemaNFT:hover,.LinkClaim:hover,.LinkMarketPlace:hover,.LinkOraculo:hover,.LinkEducacion:hover,.LinkPlanesFuturos:hover {
   color: #d06863;
 }
 

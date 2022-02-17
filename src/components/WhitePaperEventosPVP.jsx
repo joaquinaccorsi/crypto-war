@@ -9,7 +9,7 @@ import IconTelegram from "../telegrama.png";
 
 
 
-function WhitePaperApp (){
+function WhitePaperEventosPVP (){
   return    (
 
 
@@ -35,7 +35,7 @@ function WhitePaperApp (){
 
       <div className="NavBarWhitePaper"> 
     
-        <a href="/WhitePaper"  className="LinkCryptoWar"><span>Crypto War</span></a>
+        <a href="/WhitePaper"  className="LinkCryptoWar">Crypto War</a>
         <a href="/WhitePaper/InfoToken" className="LinkInfoToken">Info Token</a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">Tokenomic</a>
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
@@ -44,7 +44,7 @@ function WhitePaperApp (){
         <a href="/WhitePaper/NFTs" className="LinkNFTs">NFTs</a>
         <a href="/WhitePaper/Eventos" className="LinkEventos">Eventos</a>
         <a href="/WhitePaper/EventosMixtos" className="LinkEventosMixtos">Eventos Mixtos</a>
-        <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP">Eventos PVP</a>
+        <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP"><span>Eventos PVP</span></a>
         <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT">Quema NFT</a>
         <a href="/WhitePaper/Claim" className="LinkClaim">Claim</a>
         <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
@@ -55,16 +55,6 @@ function WhitePaperApp (){
 
 
       </div>
-      <div className="WhitePaperContent">
-        <h1 className="WhitePaperContentTitle">
-
-          CRYPTO WAR
-
-        </h1>
-        <p className="WhitePaperContentText">
-          PROBANDO
-        </p>
-      </div>
 
     </div>
 
@@ -73,4 +63,4 @@ function WhitePaperApp (){
   );
 }
 
-export default WhitePaperApp;
+export default WhitePaperEventosPVP;
