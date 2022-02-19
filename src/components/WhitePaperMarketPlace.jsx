@@ -47,7 +47,7 @@ function WhitePaperMarketPlace (){
         <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP">Eventos PVP</a>
         <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT">Quema NFT</a>
         <a href="/WhitePaper/Claim" className="LinkClaim">Claim</a>
-        <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace"><span>Marketplace</span></a>
+        <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace"><span className="SpanWP">Marketplace</span></a>
         <a href="/WhitePaper/Oraculo" className="LinkOraculo">Oraculo</a>
         <a href="/WhitePaper/Educacion" className="LinkEducacion">Educación</a>
         <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos">Planes futuros</a>

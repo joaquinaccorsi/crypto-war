@@ -47,7 +47,7 @@ function WhitePaperOraculo (){
         <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT">Quema NFT</a>
         <a href="/WhitePaper/Claim" className="LinkClaim">Claim</a>
         <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
-        <a href="/WhitePaper/Oraculo" className="LinkOraculo"><span>Oraculo</span></a>
+        <a href="/WhitePaper/Oraculo" className="LinkOraculo"><span className="SpanWP">Oraculo</span></a>
         <a href="/WhitePaper/Educacion" className="LinkEducacion">Educación</a>
         <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos">Planes futuros</a>
 

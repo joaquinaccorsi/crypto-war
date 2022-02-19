@@ -35,7 +35,7 @@ function WhitePaperApp (){
 
       <div className="NavBarWhitePaper"> 
     
-        <a href="/WhitePaper"  className="LinkCryptoWar"><span>Crypto War</span></a>
+        <a href="/WhitePaper"  className="LinkCryptoWar"><span className="SpanWP">Crypto War</span></a>
         <a href="/WhitePaper/InfoToken" className="LinkInfoToken">Info Token</a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">Tokenomic</a>
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>

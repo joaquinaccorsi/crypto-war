@@ -38,7 +38,7 @@ function WhitePaperGamePlay (){
         <a href="/WhitePaper"  className="LinkCryptoWar">Crypto War</a>
         <a href="/WhitePaper/InfoToken" className="LinkInfoToken">Info Token</a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">Tokenomic</a>
-        <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW"><span>¿En que consiste Crypto War?</span></a>
+        <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW"><span className="SpanWP">¿En que consiste Crypto War?</span></a>
         <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM">Recompensas PVM</a>
         <a href="/WhitePaper/Cofres" className="LinkCofres">Cofres</a>
         <a href="/WhitePaper/NFTs" className="LinkNFTs">NFTs</a>

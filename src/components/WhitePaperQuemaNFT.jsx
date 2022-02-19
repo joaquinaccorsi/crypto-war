@@ -44,7 +44,7 @@ function WhitePaperQuemaNFT (){
         <a href="/WhitePaper/Eventos" className="LinkEventos">Eventos</a>
         <a href="/WhitePaper/EventosMixtos" className="LinkEventosMixtos">Eventos Mixtos</a>
         <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP">Eventos PVP</a>
-        <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT"><span>Quema NFT</span></a>
+        <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT"><span className="SpanWP">Quema NFT</span></a>
         <a href="/WhitePaper/Claim" className="LinkClaim">Claim</a>
         <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
         <a href="/WhitePaper/Oraculo" className="LinkOraculo">Oraculo</a>

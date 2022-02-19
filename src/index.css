@@ -796,7 +796,7 @@ code {
   justify-content: flex-start;
   align-content: center;
   align-items: flex-start;
-  background:radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+  background:radial-gradient( black 40%,#f2023a);
   
 }
 
@@ -809,13 +809,16 @@ code {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  
   text-align: center;
   align-content: space-around;
-  background:linear-gradient(rgba(0, 0, 0, 1),rgba(242,3,59,1));
+
   padding: 0 0 160px 0;
   
   
+}
+.SpanWP{
+  color: black;
 }
 .TituloWP{
  
@@ -826,7 +829,7 @@ code {
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: space-around;
-  background:linear-gradient(rgba(242,3,59,1),rgba(0, 0, 0, 1));
+  background:linear-gradient(black);
 }
 .Atrás{
   
@@ -867,16 +870,15 @@ img.IconDiscordWP:hover,img.IconTwitterWP:hover,img.IconInstagramWP:hover,img.Ic
 
 
 .LinkRecompensas,.LinkTokenomics,.LinkCryptoWar,.LinkInfoToken,.LinkGamePlayW,.LinkRecompensasPVM,.LinkCofres,.LinkNFTs,.LinkEventos,.LinkEventosMixtos,.LinkEventosPVP,.LinkQuemaNFT,.LinkClaim,.LinkMarketPlace,.LinkOraculo,.LinkEducacion,.LinkPlanesFuturos{
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
   text-align: center;
   font-weight: 600;
   padding-top: 5px;
   margin: 0 10px 0 10px;
-  border-bottom: dotted 0.1px white;
+  border-bottom: dotted 0.1px black;
   font-family: fairplay-display;
-  
   
 }
 .LinkTokenomics:hover,.LinkCryptoWar:hover,.LinkInfoToken:hover,.LinkGamePlayW:hover,.LinkRecompensasPVM:hover,.LinkCofres:hover,.LinkNFTs:hover,.LinkEventos:hover,.LinkEventosMixtos:hover,.LinkEventosPVP:hover,.LinkQuemaNFT:hover,.LinkClaim:hover,.LinkMarketPlace:hover,.LinkOraculo:hover,.LinkEducacion:hover,.LinkPlanesFuturos:hover {
@@ -918,3 +920,4 @@ color: #f2023a;
   
 
 }
+

@@ -36,7 +36,7 @@ function WhitePaperTokenomics (){
       <div className="NavBarWhitePaper"> 
       <a href="/WhitePaper"  className="LinkCryptoWar">Crypto War</a>
         <a href="/WhitePaper/InfoToken" className="LinkInfoToken">Info Token</a>
-        <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics"><span>Tokenomic</span></a>
+        <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics"><span className="SpanWP">Tokenomic</span></a>
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
         <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM">Recompensas PVM</a>
         <a href="/WhitePaper/Cofres" className="LinkCofres">Cofres</a>

@@ -40,7 +40,7 @@ function WhitePaperCofres (){
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">Tokenomic</a>
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
         <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM">Recompensas PVM</a>
-        <a href="/WhitePaper/Cofres" className="LinkCofres"><span>Cofres</span></a>
+        <a href="/WhitePaper/Cofres" className="LinkCofres"><span className="SpanWP">Cofres</span></a>
         <a href="/WhitePaper/NFTs" className="LinkNFTs">NFTs</a>
         <a href="/WhitePaper/Eventos" className="LinkEventos">Eventos</a>
         <a href="/WhitePaper/EventosMixtos" className="LinkEventosMixtos">Eventos Mixtos</a>

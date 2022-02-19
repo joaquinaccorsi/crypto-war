@@ -42,7 +42,7 @@ function WhitePaperEventos (){
         <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM">Recompensas PVM</a>
         <a href="/WhitePaper/Cofres" className="LinkCofres">Cofres</a>
         <a href="/WhitePaper/NFTs" className="LinkNFTs">NFTs</a>
-        <a href="/WhitePaper/Eventos" className="LinkEventos"><span>Eventos</span></a>
+        <a href="/WhitePaper/Eventos" className="LinkEventos"><span className="SpanWP">Eventos</span></a>
         <a href="/WhitePaper/EventosMixtos" className="LinkEventosMixtos">Eventos Mixtos</a>
         <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP">Eventos PVP</a>
         <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT">Quema NFT</a>

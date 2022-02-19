@@ -40,7 +40,7 @@ function WhitePaperNFTs (){
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
         <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM">Recompensas PVM</a>
         <a href="/WhitePaper/Cofres" className="LinkCofres">Cofres</a>
-        <a href="/WhitePaper/NFTs" className="LinkNFTs"><span>NFTs</span></a>
+        <a href="/WhitePaper/NFTs" className="LinkNFTs"><span className="SpanWP">NFTs</span></a>
         <a href="/WhitePaper/Eventos" className="LinkEventos">Eventos</a>
         <a href="/WhitePaper/EventosMixtos" className="LinkEventosMixtos">Eventos Mixtos</a>
         <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP">Eventos PVP</a>

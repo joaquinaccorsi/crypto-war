@@ -39,7 +39,7 @@ function WhitePaperRecompensas (){
         <a href="/WhitePaper/InfoToken" className="LinkInfoToken">Info Token</a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">Tokenomic</a>
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
-        <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM"><span>Recompensas PVM</span></a>
+        <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM"><span className="SpanWP">Recompensas PVM</span></a>
         <a href="/WhitePaper/Cofres" className="LinkCofres">Cofres</a>
         <a href="/WhitePaper/NFTs" className="LinkNFTs">NFTs</a>
         <a href="/WhitePaper/Eventos" className="LinkEventos">Eventos</a>

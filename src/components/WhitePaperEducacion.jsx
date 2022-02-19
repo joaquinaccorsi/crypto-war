@@ -49,7 +49,7 @@ function WhitePaperEducacion (){
         <a href="/WhitePaper/Claim" className="LinkClaim">Claim</a>
         <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
         <a href="/WhitePaper/Oraculo" className="LinkOraculo">Oraculo</a>
-        <a href="/WhitePaper/Educacion" className="LinkEducacion"><span>Educación</span></a>
+        <a href="/WhitePaper/Educacion" className="LinkEducacion"><span className="SpanWP">Educación</span></a>
         <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos">Planes futuros</a>
 
 

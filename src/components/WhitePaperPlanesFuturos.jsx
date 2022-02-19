@@ -50,7 +50,7 @@ function WhitePaperPlanesFuturos (){
         <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
         <a href="/WhitePaper/Oraculo" className="LinkOraculo">Oraculo</a>
         <a href="/WhitePaper/Educacion" className="LinkEducacion">Educación</a>
-        <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos"><span>Planes futuros</span></a>
+        <a href="/WhitePaper/PlanesFuturos" className="LinkPlanesFuturos"><span className="SpanWP">Planes futuros</span></a>
 
 
 

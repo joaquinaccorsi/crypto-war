@@ -46,7 +46,7 @@ function WhitePaperClaim (){
         <a href="/WhitePaper/EventosMixtos" className="LinkEventosMixtos">Eventos Mixtos</a>
         <a href="/WhitePaper/EventosPVP" className="LinkEventosPVP">Eventos PVP</a>
         <a href="/WhitePaper/QuemaNFT" className="LinkQuemaNFT">Quema NFT</a>
-        <a href="/WhitePaper/Claim" className="LinkClaim"><span>Claim</span></a>
+        <a href="/WhitePaper/Claim" className="LinkClaim"><span className="SpanWP">Claim</span></a>
         <a href="/WhitePaper/MarketPlace" className="LinkMarketPlace">Marketplace</a>
         <a href="/WhitePaper/Oraculo" className="LinkOraculo">Oraculo</a>
         <a href="/WhitePaper/Educacion" className="LinkEducacion">Educación</a>

@@ -36,7 +36,7 @@ function WhitePaperInfoToken (){
       <div className="NavBarWhitePaper"> 
     
       <a href="/WhitePaper/"  className="LinkCryptoWar">Crypto War</a>
-        <a href="/WhitePaper/InfoToken" className="LinkInfoToken"><span>Info Token</span></a>
+        <a href="/WhitePaper/InfoToken" className="LinkInfoToken"><span className="SpanWP">Info Token</span></a>
         <a href="/WhitePaper/Tokenomics"  className="LinkTokenomics">Tokenomic</a>
         <a href="/WhitePaper/GamePlayW" className="LinkGamePlayW">¿En que consiste Crypto War?</a>
         <a href="/WhitePaper/Recompensas"  className="LinkRecompensasPVM">Recompensas PVM</a>
